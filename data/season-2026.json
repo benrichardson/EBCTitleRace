@@ -71,49 +71,66 @@
   ],
   "events": [
     {
-      "id": "482248",
+      "ids": [
+        "482248"
+      ],
       "label": "March",
       "status": "completed",
       "short": "Mar"
     },
     {
-      "id": "496829",
+      "ids": [
+        "496829"
+      ],
       "label": "April",
       "status": "completed",
       "short": "Apr"
     },
     {
-      "id": "509534",
+      "ids": [
+        "509534"
+      ],
       "label": "May",
       "status": "completed",
       "short": "May"
     },
     {
-      "id": "530027",
+      "ids": [
+        "530027"
+      ],
       "label": "July",
       "status": "completed",
       "short": "Jul"
     },
     {
-      "id": "518312",
+      "ids": [
+        "518312"
+      ],
       "label": "August / Dunny Bowl",
       "status": "completed",
       "short": "Aug"
     },
     {
-      "id": "555041",
+      "ids": [
+        "555041"
+      ],
       "label": "September",
       "status": "completed",
       "short": "Sep"
     },
     {
-      "id": "560816",
+      "ids": [
+        "560816"
+      ],
       "label": "October",
       "status": "completed",
       "short": "Oct"
     },
     {
-      "id": null,
+      "ids": [
+        "556196",
+        "511448"
+      ],
       "label": "November pool event",
       "status": "pending",
       "short": "Nov"

@@ -5,8 +5,8 @@ export interface DivisionConfig {
 }
 
 export interface EventConfig {
-  /** LiveHeats event ID; null until a pending event is verified. */
-  id: string | null;
+  /** LiveHeats event IDs that make up this one series event (e.g. two banks run as two events). */
+  ids: string[];
   label: string;
   /** Three-letter label for compact grids. */
   short: string;
@@ -50,11 +50,12 @@ export function loadSeasonConfig(input: any): SeasonConfig {
 
   const events: EventConfig[] = (input.events ?? []).map((e: any) => {
     if (e?.status !== "completed" && e?.status !== "pending") fail(`event status for ${e?.label}`);
-    if (e.status === "completed" && !isNonEmptyString(e.id)) fail(`completed event ${e.label} needs an id`);
+    if (!Array.isArray(e.ids) || !e.ids.every(isNonEmptyString)) fail(`event ids for ${e.label}`);
+    if (e.status === "completed" && e.ids.length === 0) fail(`completed event ${e.label} needs at least one id`);
     if (!isNonEmptyString(e.short)) fail(`event short label for ${e.label}`);
-    return { id: e.id ?? null, label: String(e.label), short: e.short, status: e.status };
+    return { ids: [...e.ids], label: String(e.label), short: e.short, status: e.status };
   });
-  const eventIds = events.map((e) => e.id).filter((id): id is string => id !== null);
+  const eventIds = events.flatMap((e) => e.ids);
   if (new Set(eventIds).size !== eventIds.length) fail("duplicate event id");
 
   const verifiedPoints = new Map<number, number>();

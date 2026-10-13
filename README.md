@@ -29,6 +29,7 @@ Requires Node 24 (see `.nvmrc`) and pnpm 10 (`corepack enable`).
 | `pnpm test` | Domain and data tests (Vitest) |
 | `pnpm typecheck` | TypeScript check |
 | `pnpm build` | Production build |
+| `pnpm refresh` | Fetch latest results from LiveHeats into `data/snapshot.json` (validated; `--dry-run` to preview) |
 
 CI (`.github/workflows/ci.yml`) runs typecheck, tests and build as separate named jobs, then auto-merges the PR when all pass (unless it's a draft or labelled `hold`). Merges to `main` deploy to https://ebc-title-race.vercel.app via Vercel.
 

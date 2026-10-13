@@ -128,3 +128,36 @@ describe("normaliseSnapshot", () => {
     expect(snap.warnings.some((w) => /counts 7/.test(w))).toBe(true);
   });
 });
+
+describe("November pool event (two LiveHeats events, one series event)", () => {
+  const nov = (eventId: string) => {
+    const s = clone(raw);
+    const results = firstResult(s);
+    results.push({ ...clone(results[0]), id: "nov-1", eventDivision: { id: "x", event: { id: eventId, date: "2026-11-14T21:00:00Z", name: "Nov" } } });
+    return s;
+  };
+
+  it("maps both LiveHeats IDs to the one configured event", () => {
+    const novEvent = season.events.find((e) => e.status === "pending")!;
+    expect(novEvent.ids).toEqual(["556196", "511448"]);
+  });
+
+  it("refuses results for an event still marked pending, so provisional scores can't slip in", () => {
+    expect(() => normaliseSnapshot(nov("511448"), season)).toThrow(/pending/i);
+  });
+
+  it("rejects two results for the same series event across its LiveHeats events", () => {
+    const completedSeason = { ...season, events: season.events.map((e) => ({ ...e, status: "completed" as const })) };
+    const s = nov("556196");
+    const results = firstResult(s);
+    results.push({ ...clone(results[0]), id: "nov-2", eventDivision: { id: "y", event: { id: "511448", date: "2026-11-14T21:00:00Z", name: "Nov" } } });
+    expect(() => normaliseSnapshot(s, completedSeason)).toThrow(/two results/i);
+  });
+});
+
+describe("the committed live snapshot", () => {
+  it("validates against the season config", () => {
+    const live = JSON.parse(readFileSync("data/snapshot.json", "utf8"));
+    expect(() => normaliseSnapshot(live, season)).not.toThrow();
+  });
+});

@@ -81,7 +81,7 @@ For an athlete’s eligible, finalised event points `scores` and division counti
 - A November result equal to the replacement score adds nothing.
 - Maximum total uses 1,000 November points.
 
-Cross out only existing discarded results. A missing result is shown as “—”; the upcoming pool event is “Pending”, never a scored zero. A surfer with fewer than N results retains all recorded results. When equally low scores compete for the final counting slot, use chronological event order then stable result ID to select the discarded display score. This does not resolve a championship tie.
+Cross out only existing discarded results. A missing result is shown as “—”; the upcoming pool event is “Pending”, never a scored zero. A surfer with fewer than N results retains all recorded results. When equally low scores compete for the final counting slot, cross out the most recently entered result (highest LiveHeats result ID), matching LiveHeats (decision 2026-10-13). This does not resolve a championship tie.
 
 Until the official championship tie-break is confirmed, equal totals share competition ranks (1, 2, 2, 4). An alphabetical/stable-ID ordering may make rows deterministic but must not imply one tied surfer leads another. Clearly show tied totals and unresolved final outcomes.
 

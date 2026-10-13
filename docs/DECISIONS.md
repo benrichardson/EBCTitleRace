@@ -8,7 +8,7 @@ Next.js 16 (App Router) + React 19, TypeScript 5.9 (not 7: Next.js tooling still
 
 ## 2026-10-13 — Discard display for equal low scores (Approved)
 
-When equal scores compete for the last counting slot, the earlier event counts and the later one is shown as discarded (then lower result ID). Totals are unaffected; this only decides which cell is crossed out. Matches LiveHeats, which crosses out the most recent result.
+When equal scores compete for the last counting slot, the most recently **entered** result (highest LiveHeats result ID) is crossed out, matching LiveHeats. Totals are unaffected. Updated after the first live refresh: LiveHeats crossed out Tom Iverach's (U14 Boys) Dunny Bowl 528 rather than September's, because Dunny Bowl results were entered later; event date is not what LiveHeats uses.
 
 ## 2026-10-13 — Points scale handling
 
@@ -35,3 +35,9 @@ The "Explore every result and build your own scenario" calculator (spec §7) is 
 The November pool event (15 Nov 2026, Urbn Surf, Homebush) runs as two LiveHeats events because it uses different banks: 556196 (U12 Boys, U14 Boys, all girls' divisions, Womens, Mens, Masters, Originals; its "Parent Assist" division is not in the series) and 511448 (U16 Boys, U18 Boys). Together they are **one** series event: when results arrive, map both IDs to the single November event and reject any athlete with results in both for the same division.
 
 Entries are closed but the entrant list isn't published, and organisers may still add surfers. Until it is published, every surfer in a division is treated as able to score in November. Later: once a final entrant list is available, use it so non-entrants' totals are final (stronger clinches, fewer rivals in "who can catch you", field size caps possible finishes). Open question for then: whether an entered no-show scores any points.
+
+## 2026-10-13 — Live data, Sydney region and performance budget (Ben Richardson)
+
+- The site now builds from `data/snapshot.json`, written by `pnpm refresh` from LiveHeats' public GraphQL API (read-only, run on demand). `data/prototype-snapshot.json` stays as a test fixture.
+- `vercel.json` pins functions to `syd1`; all pages are static and served from Vercel's edge anyway.
+- Spec §9's 100/120 KB JS budgets can't be met with Next.js: its React + router runtime alone is ~155 KB gzip (our own code ~10 KB). Accepted, because all content is in the server HTML. Measured instead with Lighthouse (mobile, simulated throttling, local production build): rankings and surfer pages both LCP 2.5 s, CLS 0, TBT 10 ms, performance 98, accessibility 100. Not yet measured on real phones.
