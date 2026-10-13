@@ -195,12 +195,9 @@ Accessible names, keyboard navigation, visible focus, 44px primary tap targets, 
 
 Ben Richardson creates the GitHub repository, imports it into the correct Vercel team/project, adds Ben Miller, sets environment scopes, and enables the Git integration. Do not create a second independent production deployment pipeline.
 
-- Protected `main` is production. Feature/design branches get Vercel previews.
-- All changes go through PRs, including snapshots. Merge to `main` deploys production through the Vercel Git integration.
-- GitHub Actions run type checks, domain/data tests and production build checks. Vercel supplies deployment previews. A successful preview is not a replacement for required correctness checks.
-- Require an approving review from the other human and passing checks; dismiss stale approval after material changes. Disable force-push and direct pushes to `main`. Verify plan support for the chosen GitHub rules.
-- Set CODEOWNERS after usernames are supplied. Listing both owners on one path requires approval from either one, not necessarily both; cross-boundary approvals still need the agreed review workflow.
-- Use unique named CI jobs. Pin runtime/package-manager versions and commit the lockfile. Document actual setup/build/test commands once scaffolded.
+- `main` is production. Feature/design branches get public Vercel previews.
+- All changes go through PRs, including snapshots. CI runs type checks, domain/data tests and a production build; when all pass, the PR auto-merges (squash) unless it is a draft or labelled `hold`. Merge to `main` deploys production through the Vercel Git integration. There is no required human review (decision 2026-10-13); the tests are the safety net. A successful preview is not a replacement for the correctness checks.
+- Use unique named CI jobs. Pin runtime/package-manager versions and commit the lockfile. Setup/build/test commands are in the README.
 - Preview and production secrets stay scoped in Vercel/GitHub settings, never source files. No frontend source tokens. Supply `.env.example` with names only if secrets become necessary.
 - Record release commit, data snapshot and rules version. Roll back to a known-good deployment when needed and reconcile `main` through a follow-up revert/fix PR; hosting and repository must not remain divergent.
 
