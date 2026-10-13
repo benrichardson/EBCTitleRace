@@ -1,33 +1,30 @@
 # Working together remotely
 
-## Day-one setup
+## Setup (done)
 
-Ben Richardson creates the repo and Vercel project, adds Ben Miller with appropriate access, sets `main` as production, installs the Git integration and protects `main`. Both use individual GitHub accounts, distinct local clones, and task branches such as `technical/scenario-engine` and `design/mobile-rankings`.
+- GitHub: private repo `benrichardson/EBCTitleRace`. Ben Richardson adds Ben Miller as a collaborator.
+- Vercel: project `ebc-title-race`, connected to the repo. `main` deploys to production at https://ebc-title-race.vercel.app. Every PR also gets a public preview link (the Vercel bot comments it on the PR). The project is fine being public.
+- Tooling: Node 24, pnpm. `pnpm check` runs typecheck, tests and build. See the README.
 
-Agree on the first mobile screen, folder boundaries and typed props before working in parallel. Use the supplied `CODEOWNERS.example` after substituting actual usernames and matching the scaffold. Create `docs/DESIGN.md` for Miller’s visual decisions and `docs/DECISIONS.md` for jointly approved product/technical decisions.
+Ben Miller's coding agent (Claude) reads `AGENTS.md` (via `CLAUDE.md`) and walks him through setup and shipping. He doesn't need to know git.
 
-## Shared work board
+## How changes ship
 
-Use GitHub issues/project as the canonical board, not verbal assumptions across locations. Each active issue records owner, branch/PR, files or directories, expected shared contracts, dependencies and status. Keep a short summary of overlapping work in `docs/OWNERSHIP.md`.
+1. Work on a branch: `design/...` or `technical/...`.
+2. Open a PR. CI runs typecheck, tests and the production build.
+3. When all checks pass, the `Auto-merge` job squash-merges the PR and deletes the branch. Vercel deploys `main` to production.
+4. To stop a PR going live, open it as a draft or add the `hold` label.
 
-Suggested statuses: Ready → In progress → Ready for review → Merged. A reservation is advisory coordination, not a filesystem lock. Clear reservations when work finishes or is abandoned.
+There's no review requirement: we trust each other and the tests. Look at each other's merged PRs when convenient, and raise anything odd in a follow-up PR or a chat.
 
-## Handoffs
+## Who leads what
 
-Miller sends the mobile design, tokens, responsive behaviour and presentational props; Richardson supplies typed fixture/view models and domain APIs. UI screens can ship independently behind fixture data in a preview. Route wrappers connect them in a small integration PR.
+Ben Richardson leads scoring, data, tests and infrastructure. Ben Miller leads visual design. Either can change anything; PRs that touch the other person's area say so in their summary. Product decisions go in `docs/DECISIONS.md`; visual decisions in `docs/DESIGN.md`.
 
-Do not edit the same shared screen shell concurrently. One person owns that integration task; the other reviews. For cross-boundary work, agree the exact files first. A README/AGENTS policy cannot automatically prevent Git merge conflicts.
+## Avoiding collisions
 
-## Pull requests
-
-Every PR includes intent, changed behaviour, test evidence, Vercel preview and owner(s) affected. The other person reviews. For mixed design/logic changes, obtain both roles’ sign-off through the author’s recorded validation and the other human’s approval. GitHub does not let authors approve their own PRs, and a CODEOWNERS line listing both people allows either owner to satisfy its code-owner review.
-
-Use small PRs; squash merge after checks. Refresh against main before merging, and re-review changed parts if another PR lands first. Resolve conflicts deliberately, preserving both owners’ changes. Never force-push another person’s branch.
-
-## Branch rules
-
-Require PRs, one non-author approval, passing uniquely named CI checks, and code-owner review where the repository plan supports it. Disallow force-push/deletion and bypass for normal work. Decide together who can use an emergency bypass and how its follow-up PR is reviewed. Vercel previews are for review; `main` merges are the normal production release.
+Keep PRs small and short-lived, since auto-merge means `main` moves quickly. Start each change from a fresh `main`. If you're about to do a big restructure of shared screens, give the other Ben a heads-up first. Resolve conflicts by keeping both people's intent; never force-push another person's branch.
 
 ## Decisions still needed
 
-Actual GitHub usernames and Vercel team/project; chosen scaffold and package manager; tie-break and point-allocation source; snapshot refresh ownership; branding/domain. These documents specify the process but do not create the repo or change account settings.
+Tie-break and point-allocation source; snapshot refresh ownership; branding/domain.
