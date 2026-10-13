@@ -18,3 +18,19 @@ Included:
 No app scaffold, repository, Vercel account settings or deployments are created by this documentation kit. Do not copy prototype visual design. Actual install/build/test commands should be added once the technical scaffold is chosen.
 
 Important launch decisions: official tie-break, complete points/shared-place rules, source integration permission, data freshness/completeness, November event details, and club approval of public junior-data presentation.
+
+## Development
+
+Requires Node 24 (see `.nvmrc`) and pnpm 10 (`corepack enable`).
+
+| Command | Purpose |
+|---|---|
+| `pnpm install` | Install dependencies |
+| `pnpm dev` | Local dev server |
+| `pnpm test` | Domain and data tests (Vitest) |
+| `pnpm typecheck` | TypeScript check |
+| `pnpm build` | Production build |
+
+CI (`.github/workflows/ci.yml`) runs typecheck, tests and build as separate named jobs.
+
+Season rules live in `data/season-2026.json`; they are validated by `src/data/season.ts`.
