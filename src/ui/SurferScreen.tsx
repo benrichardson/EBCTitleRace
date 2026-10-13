@@ -3,10 +3,10 @@ import type { SurferPageVM } from "@/data/views";
 import { AppShell } from "./AppShell";
 import { EventStrip } from "./EventStrip";
 import { fmt, ordinal } from "./format";
+import { OutlookSection } from "./Outlook";
 import styles from "./surfer.module.css";
 
 export function SurferScreen({ page }: { page: SurferPageVM }) {
-  const gain = page.winTotal - page.total;
   return (
     <AppShell seriesName={page.seriesName} snapshotLabel={page.snapshotLabel}>
       <Link href={page.backHref} className={styles.back}>
@@ -22,8 +22,10 @@ export function SurferScreen({ page }: { page: SurferPageVM }) {
         <div>
           <dt>Current rank</dt>
           <dd className={styles.big}>
-            {page.tied && <span aria-hidden="true">=</span>}
-            {ordinal(page.rank)}
+            <span>
+              {page.tied ? "=" : ""}
+              {ordinal(page.rank)}
+            </span>
             {page.tied && <span className={styles.tieChip}>Tied</span>}
           </dd>
         </div>
@@ -52,13 +54,9 @@ export function SurferScreen({ page }: { page: SurferPageVM }) {
         </div>
       </dl>
 
-      {page.pendingEvent && (
-        <p className={styles.headline}>
-          {gain > 0
-            ? `Winning the ${page.pendingEvent.label} would add ${fmt(gain)} points, taking ${page.name} to ${fmt(page.winTotal)}.`
-            : `No ${page.pendingEvent.label} result can add to this total.`}
-        </p>
-      )}
+      <p className={styles.headline}>{page.outlook.headline}</p>
+
+      <OutlookSection outlook={page.outlook} eventLabel={page.pendingEvent?.label ?? "next event"} />
 
       <section aria-labelledby="results-heading" className={styles.section}>
         <h2 id="results-heading" className={styles.sectionTitle}>

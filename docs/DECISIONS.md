@@ -25,3 +25,7 @@ Ben Richardson will draft the first UI (with an AI design consultant) so there's
 ## 2026-10-13 — Auto-merge on green checks (Ben Richardson)
 
 PRs merge automatically once typecheck, tests and build pass; no human review is required. Draft PRs and PRs labelled `hold` are skipped. Reason: keep shipping effortless for both Bens, especially design work. The domain/data tests are the safety net, so they must not be weakened to get a change through. This replaces the review/CODEOWNERS process in the original kit.
+
+## 2026-10-13 — No scenario calculator (Ben Richardson)
+
+The "Explore every result and build your own scenario" calculator (spec §7) is dropped. The outlook bullets and head-to-head tables cover what visitors need.

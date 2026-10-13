@@ -5,7 +5,9 @@ import {
   headToHead,
   improvementThreshold,
   isTitleClinched,
+  ownFinishScenarios,
   reachableRivals,
+  selectRivals,
   threateningRivals,
   type Contender,
 } from "@/domain/outlook";
@@ -155,3 +157,60 @@ describe("headToHead", () => {
   });
 });
 
+
+describe("ownFinishScenarios", () => {
+  it("lists 1st–4th and then groups every finish that adds nothing", () => {
+    // replacement 730: 3rd (730) adds nothing, so 3rd or lower is one group.
+    expect(ownFinishScenarios(c("me", 4450, 730), SCALE)).toEqual([
+      { fromPlace: 1, orLower: false, points: 1000, total: 4720, gain: 270 },
+      { fromPlace: 2, orLower: false, points: 860, total: 4580, gain: 130 },
+      { fromPlace: 3, orLower: true, points: 730, total: 4450, gain: 0 },
+    ]);
+  });
+
+  it("adds the first non-improving finish after the first four", () => {
+    const rows = ownFinishScenarios(c("me", 3783, 475), SCALE);
+    expect(rows.map((r) => [r.fromPlace, r.orLower])).toEqual([
+      [1, false], [2, false], [3, false], [4, false], [11, true],
+    ]);
+    expect(rows.at(-1)!.total).toBe(3783);
+  });
+
+  it("can group across unverified places because points never rise with place", () => {
+    // replacement 420: 14th (438) improves, 15th/16th unknown, 17th (400) does not.
+    expect(ownFinishScenarios(c("me", 3000, 420), SCALE).at(-1)).toMatchObject({ fromPlace: 17, orLower: true, gain: 0 });
+  });
+
+  it("has no 'or lower' row when every verified finish improves", () => {
+    expect(ownFinishScenarios(c("me", 500, 0), SCALE).some((r) => r.orLower)).toBe(false);
+  });
+});
+
+describe("headToHead for a grouped own finish", () => {
+  it("lets the rival take any place when the athlete's own place is not fixed", () => {
+    const h = headToHead({ projectedTotal: 4450, place: null }, c("colm", 4450, 730), SCALE);
+    expect(h.tieIfRivalAddsNothing).toBe(true);
+    expect(h.finishes.find((f) => f.place === 3)).toMatchObject({ outcome: "tie" });
+  });
+});
+
+describe("selectRivals", () => {
+  const field = [c("darren", 4580, 860), c("colm", 4450, 730), c("simon", 4450, 730), c("scott", 2400, 0), c("craig", 730, 0)];
+
+  it("picks the leader, the nearest reachable rival above or level, and the nearest threat below", () => {
+    expect(selectRivals(c("simon", 4450, 730), field.filter((r) => r.athleteId !== "simon"), MAX)).toEqual(["darren", "colm"]);
+  });
+
+  it("returns every rival level on the nearest threatening total, in field order", () => {
+    expect(selectRivals(c("darren", 4580, 860), field.filter((r) => r.athleteId !== "darren"), MAX)).toEqual(["colm", "simon"]);
+  });
+
+  it("shows at most three rivals", () => {
+    const crowd = ["a", "b", "c", "d"].map((id) => c(id, 4000, 500));
+    expect(selectRivals(c("me", 4100, 500), crowd, MAX)).toHaveLength(3);
+  });
+
+  it("returns nothing when no rival is reachable or threatening", () => {
+    expect(selectRivals(c("craig", 730, 0), [c("darren", 4580, 860)], MAX)).toEqual([]);
+  });
+});

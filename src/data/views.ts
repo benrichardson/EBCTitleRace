@@ -1,4 +1,5 @@
 import { rankDivision, type RankedRow } from "@/domain/ranking";
+import { buildOutlook, type Outlook } from "@/domain/narrative";
 import { projectTotal } from "@/domain/scoring";
 import type { SeasonConfig } from "./season";
 import type { NormalisedSnapshot } from "./snapshot";
@@ -71,6 +72,7 @@ export interface SurferPageVM {
   events: EventCellVM[];
   pendingEvent: { label: string } | null;
   snapshotLabel: string;
+  outlook: Outlook;
 }
 
 export const rankingsHref = (divisionId: string) => `/2026/rankings/${divisionId}`;
@@ -196,5 +198,25 @@ export function buildSurferPage(
     events: eventCells(row, season),
     pendingEvent: pendingEvent(season),
     snapshotLabel: formatSydneyTime(snapshot.retrievedAt),
+    outlook: buildOutlook({
+      own: {
+        athleteId,
+        name: row.name,
+        total: row.standing.total,
+        replacement: row.standing.replacement,
+        rank: row.rank,
+        tied: row.tied,
+        resultsCounted: row.standing.counted.length,
+        resultsToCount: ranked.division.resultsToCount,
+      },
+      rivals: ranked.rows
+        .filter((r) => r.athleteId !== athleteId)
+        .map((r) => ({ athleteId: r.athleteId, name: r.name, total: r.standing.total, replacement: r.standing.replacement })),
+      scale: season.verifiedPoints,
+      maxPoints: season.maxEventPoints,
+      eventLabel: pendingEvent(season)?.label ?? "next event",
+      // Snapshots are validated whole-or-nothing; per-division completeness flags can lower this later.
+      guaranteesAllowed: true,
+    }),
   };
 }
