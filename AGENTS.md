@@ -13,12 +13,12 @@ Two people work on this: **Ben Richardson** (technical) and **Ben Miller** (desi
 1. Check the tools, installing anything missing with Homebrew (`brew install git gh node pnpm` or `corepack enable` for pnpm). Node must be 24+.
 2. Check `gh auth status`. If not logged in, ask them to type `! gh auth login` in the prompt and follow the browser steps (choose GitHub.com, HTTPS, log in with a browser).
 3. Clone and install: `gh repo clone benrichardson/EBCTitleRace && cd EBCTitleRace && pnpm install`.
-4. Start the site with `pnpm dev` (in the background) and tell them to open http://localhost:3000. Changes appear there instantly as you edit.
+4. Start the site with `pnpm dev` (in the background) and give them the local URL it prints. It's usually http://localhost:3000, but Next.js moves to the next free port if that one is taken, so always read the actual URL from the output. Changes appear there instantly as you edit.
 
 ### Every change
 
 1. **Start fresh:** `git checkout main && git pull`, then create a branch named for the work: `design/<short-topic>` for visual work, `technical/<short-topic>` otherwise. Never commit directly to `main`.
-2. **Make the change.** Keep `pnpm dev` running so they can see it locally. For UI work, check it at phone width (375px) as well as desktop.
+2. **Make the change.** Keep `pnpm dev` running so they can see it locally (at the URL it printed). For UI work, check it at phone width (375px) as well as desktop.
 3. **Verify:** run `pnpm check` (typecheck + tests + build). Fix failures before pushing.
 4. **Ship:** commit with a clear message, `git push -u origin HEAD`, then `gh pr create --fill` (add a short plain-English summary to the body).
 5. **Watch it land:** Vercel comments a public preview link on the PR within a minute or two; share it if they want a look before it merges. Then `gh pr checks --watch`. When it merges, tell them it's live at https://ebc-title-race.vercel.app (allow a minute for Vercel). If a check fails, read the log (`gh run view --log-failed`), fix it on the same branch and push again; the PR re-runs and merges itself when green.
