@@ -2,11 +2,22 @@ import type { AthleteEntry } from "@/domain/ranking";
 import type { EventResult } from "@/domain/types";
 import type { SeasonConfig } from "./season";
 
+/** What LiveHeats itself reported, kept only for cross-checking our recomputation. */
+export interface SourceStanding {
+  points: number | null;
+  resultsToCount: number | null;
+  droppedResultIds: string[];
+}
+
+export interface SnapshotAthlete extends AthleteEntry {
+  source: SourceStanding;
+}
+
 export interface DivisionSnapshot {
   id: string;
   name: string;
   resultsToCount: number;
-  athletes: AthleteEntry[];
+  athletes: SnapshotAthlete[];
 }
 
 export interface NormalisedSnapshot {
@@ -34,7 +45,7 @@ export function normaliseSnapshot(raw: any, season: SeasonConfig): NormalisedSna
   if (typeof raw.retrievedAt !== "string" || Number.isNaN(Date.parse(raw.retrievedAt))) fail("retrievedAt");
 
   const eventOrder = new Map<string, number>();
-  season.events.forEach((e, i) => e.id && eventOrder.set(e.id, i));
+  season.events.forEach((e, i) => e.ids.forEach((id) => eventOrder.set(id, i)));
 
   const rawDivisions = new Map<string, any>();
   for (const d of raw.rankingsDivisions ?? []) rawDivisions.set(String(d.id), d);
@@ -49,7 +60,7 @@ export function normaliseSnapshot(raw: any, season: SeasonConfig): NormalisedSna
     const sourceCounts = new Set<number>();
     const athleteIds = new Set<string>();
 
-    const athletes = (rd.rankings ?? []).map((entry: any): AthleteEntry => {
+    const athletes = (rd.rankings ?? []).map((entry: any): SnapshotAthlete => {
       const athleteId = String(entry?.athlete?.id ?? "");
       const name = entry?.athlete?.name;
       if (!athleteId || typeof name !== "string") fail(`athlete identity in division ${config.id}`);
@@ -60,7 +71,7 @@ export function normaliseSnapshot(raw: any, season: SeasonConfig): NormalisedSna
       if (!detail || !Array.isArray(detail.results)) fail(`result detail missing for athlete ${athleteId}`);
       if (isFiniteInt(detail.resultsToCount)) sourceCounts.add(detail.resultsToCount);
 
-      const eventsSeen = new Set<string>();
+      const eventsSeen = new Set<number>();
       const results = detail.results.map((r: any): EventResult => {
         const resultId = String(r?.id ?? "");
         if (!resultId) fail(`result without id for athlete ${athleteId}`);
@@ -70,8 +81,12 @@ export function normaliseSnapshot(raw: any, season: SeasonConfig): NormalisedSna
         const eventId = String(r.eventDivision?.event?.id ?? "");
         const order = eventOrder.get(eventId);
         if (order === undefined) fail(`unknown event ${eventId} in result ${resultId}`);
-        if (eventsSeen.has(eventId)) fail(`athlete ${athleteId} has two results for event ${eventId}`);
-        eventsSeen.add(eventId);
+        const event = season.events[order]!;
+        if (event.status === "pending") {
+          fail(`result ${resultId} is for ${event.label}, still marked pending; confirm results are final, then mark it completed in the season config`);
+        }
+        if (eventsSeen.has(order)) fail(`athlete ${athleteId} has two results for ${event.label}`);
+        eventsSeen.add(order);
 
         if (!isFiniteInt(r.points) || r.points < 0 || r.points > season.maxEventPoints) {
           fail(`invalid points ${JSON.stringify(r.points)} in result ${resultId}`);
@@ -80,7 +95,16 @@ export function normaliseSnapshot(raw: any, season: SeasonConfig): NormalisedSna
         return { resultId, eventId, eventOrder: order, place: r.place, points: r.points };
       });
 
-      return { athleteId, name, results };
+      return {
+        athleteId,
+        name,
+        results,
+        source: {
+          points: isFiniteInt(entry.points) ? entry.points : null,
+          resultsToCount: isFiniteInt(detail.resultsToCount) ? detail.resultsToCount : null,
+          droppedResultIds: detail.results.filter((r: any) => r?.dropped === true).map((r: any) => String(r.id)),
+        },
+      };
     });
 
     for (const n of sourceCounts) {

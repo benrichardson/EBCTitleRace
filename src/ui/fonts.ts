@@ -4,7 +4,7 @@ export const display = Barlow_Condensed({
   subsets: ["latin"],
   weight: ["600", "700"],
   variable: "--font-display",
-  display: "swap",
+  display: "optional",
 });
 
 export const text = IBM_Plex_Sans({

@@ -32,16 +32,17 @@ describe("countBestN", () => {
     expect(s.replacement).toBe(500);
   });
 
-  it("counts the earlier event and discards the later one when equal low scores compete for the last slot", () => {
-    const s = countBestN([r(3, 500), r(1, 1000), r(2, 500)], 2);
-    expect(s.counted.map((x) => x.resultId)).toEqual(["r1", "r2"]);
-    expect(s.discarded.map((x) => x.resultId)).toEqual(["r3"]);
+  it("discards the most recently entered result (highest LiveHeats result ID) when equal low scores compete, like LiveHeats", () => {
+    // Event order deliberately disagrees with entry order: the later-entered result goes.
+    const s = countBestN([r(1, 1000, "100"), r(2, 500, "11010571"), r(3, 500, "11007123")], 2);
+    expect(s.counted.map((x) => x.resultId)).toEqual(["100", "11007123"]);
+    expect(s.discarded.map((x) => x.resultId)).toEqual(["11010571"]);
     expect(s.replacement).toBe(500);
   });
 
-  it("falls back to result ID when equal scores share an event order", () => {
-    const s = countBestN([r(1, 500, "b"), r(1, 500, "a")], 1);
-    expect(s.counted.map((x) => x.resultId)).toEqual(["a"]);
+  it("compares result IDs numerically, not alphabetically", () => {
+    const s = countBestN([r(1, 500, "900"), r(2, 500, "1000")], 1);
+    expect(s.discarded.map((x) => x.resultId)).toEqual(["1000"]);
   });
 
   it("treats a scored zero as a real counted result", () => {

@@ -24,6 +24,10 @@ Two people work on this: **Ben Richardson** (technical) and **Ben Miller** (desi
 5. **Watch it land:** Vercel comments a public preview link on the PR within a minute or two; share it if they want a look before it merges. Then `gh pr checks --watch`. When it merges, tell them it's live at https://ebc-title-race.vercel.app (allow a minute for Vercel). If a check fails, read the log (`gh run view --log-failed`), fix it on the same branch and push again; the PR re-runs and merges itself when green.
 6. **Not ready to go live yet?** Open the PR as a draft (`gh pr create --draft --fill`) or add the `hold` label. Mark it ready (`gh pr ready`) or remove the label when they're happy.
 
+### Updating results
+
+To pull the latest results from LiveHeats: on a fresh branch (`technical/refresh-<date>`), run `pnpm refresh`. It validates everything and only writes `data/snapshot.json` if the whole fetch is good, then prints whose rank or total changed. Ship it like any other change. If it fails, the existing snapshot is untouched; report the error. When November results appear, the refresh will refuse them until the November event is marked `"completed"` in `data/season-2026.json`, which needs Ben Richardson to confirm results are final.
+
 ### When things get awkward
 
 - **Merge conflict** (someone else changed the same lines): `git pull origin main` on the branch, then resolve by keeping both people's intent. If you can't do that without throwing away the other person's work, stop and explain the conflict to your human in plain terms so they can check with the other Ben.

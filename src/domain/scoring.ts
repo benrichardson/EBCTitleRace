@@ -1,11 +1,18 @@
 import type { EventResult, Standing } from "./types";
 
+/** Numeric-aware ID comparison ("900" < "1000"). */
+function compareIds(a: string, b: string): number {
+  return a.localeCompare(b, "en", { numeric: true });
+}
+
 /**
- * Highest points first. Equal scores keep the earlier event (then lower result ID)
- * in the counting set, so the later result is the one shown as discarded.
+ * Highest points first. Equal scores keep the earlier-entered result (lower LiveHeats
+ * result ID), so the most recently entered one is shown as discarded. This matches
+ * LiveHeats, which uses entry order rather than event date (e.g. Dunny Bowl results
+ * were entered after September's).
  */
 function byCountingPriority(a: EventResult, b: EventResult): number {
-  return b.points - a.points || a.eventOrder - b.eventOrder || a.resultId.localeCompare(b.resultId);
+  return b.points - a.points || compareIds(a.resultId, b.resultId) || a.eventOrder - b.eventOrder;
 }
 
 export function countBestN(results: readonly EventResult[], resultsToCount: number): Standing {

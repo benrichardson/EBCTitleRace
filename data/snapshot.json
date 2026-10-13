@@ -1,0 +1,8675 @@
+{
+ "id": "61709",
+ "name": "2026 EB-CT",
+ "rankingsDivisions": [
+  {
+   "id": "107730",
+   "name": "Originals (O50)",
+   "rankings": [
+    {
+     "athlete": {
+      "id": "85984",
+      "name": "DARREN CURLEY"
+     },
+     "place": 1,
+     "points": 4580,
+     "detail": {
+      "resultsToCount": 5,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680965",
+        "place": 3,
+        "points": 730,
+        "dropped": true,
+        "eventDivision": {
+         "id": "920825",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797051",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953321",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610355",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907319",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418407",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888039",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007142",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999297",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11010583",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932892",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "209812",
+      "name": "Colm O’leary"
+     },
+     "place": 2,
+     "points": 4450,
+     "detail": {
+      "resultsToCount": 5,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680963",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920825",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797050",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953321",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10418408",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888039",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007302",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010708",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11010582",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932892",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "106183",
+      "name": "Simon Johnson"
+     },
+     "place": 2,
+     "points": 4450,
+     "detail": {
+      "resultsToCount": 5,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680964",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920825",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797052",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953321",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610358",
+        "place": 4,
+        "points": 670,
+        "dropped": true,
+        "eventDivision": {
+         "id": "907319",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "11007143",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999297",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007301",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010708",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11010581",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932892",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "79456",
+      "name": "Scott Rainnie"
+     },
+     "place": 4,
+     "points": 2400,
+     "detail": {
+      "resultsToCount": 5,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10797053",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953321",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10418406",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888039",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007144",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999297",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "726905",
+      "name": "Matt Hegarty"
+     },
+     "place": 5,
+     "points": 2140,
+     "detail": {
+      "resultsToCount": 5,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10797054",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953321",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610356",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907319",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "11007145",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999297",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "82857",
+      "name": "Craig Steen"
+     },
+     "place": 6,
+     "points": 730,
+     "detail": {
+      "resultsToCount": 5,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10610357",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907319",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "107729",
+   "name": "Masters (O35)",
+   "rankings": [
+    {
+     "athlete": {
+      "id": "1993471",
+      "name": "Glenn Pringle"
+     },
+     "place": 1,
+     "points": 5140,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680970",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920826",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797058",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953322",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610375",
+        "place": 17,
+        "points": 400,
+        "dropped": true,
+        "eventDivision": {
+         "id": "907320",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418409",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888040",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007146",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999298",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007304",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010709",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11010531",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932893",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "209703",
+      "name": "David Martin"
+     },
+     "place": 2,
+     "points": 4610,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680967",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920826",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10610363",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907320",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418413",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888040",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007147",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999298",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007303",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010709",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11010536",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932893",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "871376",
+      "name": "Cam Pyett"
+     },
+     "place": 3,
+     "points": 4520,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680968",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920826",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797056",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953322",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610361",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907320",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418414",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888040",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007148",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999298",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007314",
+        "place": 10,
+        "points": 488,
+        "dropped": true,
+        "eventDivision": {
+         "id": "1010709",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11010532",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932893",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "82892",
+      "name": "Rickard Muffinhead Sillan"
+     },
+     "place": 4,
+     "points": 4185,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680974",
+        "place": 9,
+        "points": 500,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920826",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797057",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953322",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610359",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907320",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418411",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888040",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007153",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999298",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11010534",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932893",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "82863",
+      "name": "Ben Richardson"
+     },
+     "place": 5,
+     "points": 3783,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680969",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920826",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797055",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953322",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610366",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907320",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418417",
+        "place": 9,
+        "points": 500,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888040",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007157",
+        "place": 11,
+        "points": 475,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999298",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007309",
+        "place": 6,
+        "points": 583,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010709",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11010543",
+        "place": 12,
+        "points": 462,
+        "dropped": true,
+        "eventDivision": {
+         "id": "932893",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "725714",
+      "name": "Jono Arnold"
+     },
+     "place": 6,
+     "points": 3640,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680973",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920826",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10610364",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907320",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418410",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888040",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007158",
+        "place": 13,
+        "points": 450,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999298",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007307",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010709",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11010541",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932893",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "114673",
+      "name": "Luke Palmer"
+     },
+     "place": 7,
+     "points": 3608,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680972",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920826",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10610360",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907320",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418418",
+        "place": 9,
+        "points": 500,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888040",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007151",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999298",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007311",
+        "place": 8,
+        "points": 528,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010709",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11010539",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932893",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "79517",
+      "name": "Jarrod Simpson"
+     },
+     "place": 8,
+     "points": 3510,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680971",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920826",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797059",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953322",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610371",
+        "place": 13,
+        "points": 450,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907320",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418412",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888040",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007154",
+        "place": 9,
+        "points": 500,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999298",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007306",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010709",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "200630",
+      "name": "Benjamin Black"
+     },
+     "place": 9,
+     "points": 3265,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680982",
+        "place": 17,
+        "points": 400,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920826",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797060",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953322",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610365",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907320",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418420",
+        "place": 11,
+        "points": 475,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888040",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007149",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999298",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11010537",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932893",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "80265",
+      "name": "Ben Miller"
+     },
+     "place": 10,
+     "points": 3240,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680976",
+        "place": 11,
+        "points": 475,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920826",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797061",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953322",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610369",
+        "place": 11,
+        "points": 475,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907320",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418427",
+        "place": 17,
+        "points": 400,
+        "dropped": true,
+        "eventDivision": {
+         "id": "888040",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007160",
+        "place": 13,
+        "points": 450,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999298",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007305",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010709",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11010538",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932893",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "203899",
+      "name": "Matt Anderson"
+     },
+     "place": 11,
+     "points": 2993,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680978",
+        "place": 13,
+        "points": 450,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920826",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797063",
+        "place": 9,
+        "points": 500,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953322",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610368",
+        "place": 9,
+        "points": 500,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907320",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "11007155",
+        "place": 9,
+        "points": 500,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999298",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007313",
+        "place": 10,
+        "points": 488,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010709",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11010540",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932893",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "112248",
+      "name": "Joel Potter"
+     },
+     "place": 12,
+     "points": 2835,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680966",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920826",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10418415",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888040",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007150",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999298",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11010535",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932893",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "1168581",
+      "name": "Dan Wecksler"
+     },
+     "place": 13,
+     "points": 2693,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680985",
+        "place": 17,
+        "points": 400,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920826",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10610374",
+        "place": 13,
+        "points": 450,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907320",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418426",
+        "place": 17,
+        "points": 400,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888040",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007152",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999298",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007316",
+        "place": 13,
+        "points": 450,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010709",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11010544",
+        "place": 14,
+        "points": 438,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932893",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "195184",
+      "name": "Heath Blows"
+     },
+     "place": 14,
+     "points": 2676,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680983",
+        "place": 17,
+        "points": 400,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920826",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797069",
+        "place": 14,
+        "points": 438,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953322",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610370",
+        "place": 11,
+        "points": 475,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907320",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418421",
+        "place": 13,
+        "points": 450,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888040",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007156",
+        "place": 11,
+        "points": 475,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999298",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11010547",
+        "place": 14,
+        "points": 438,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932893",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "2030688",
+      "name": "Warrick Oates"
+     },
+     "place": 15,
+     "points": 2663,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680977",
+        "place": 11,
+        "points": 475,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920826",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797064",
+        "place": 9,
+        "points": 500,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953322",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10418425",
+        "place": 17,
+        "points": 400,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888040",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007162",
+        "place": 17,
+        "points": 400,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999298",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007317",
+        "place": 13,
+        "points": 450,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010709",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11010548",
+        "place": 14,
+        "points": 438,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932893",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "682558",
+      "name": "Dan Allouche"
+     },
+     "place": 16,
+     "points": 2460,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680975",
+        "place": 9,
+        "points": 500,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920826",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797062",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953322",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610373",
+        "place": 13,
+        "points": 450,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907320",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418416",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888040",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007164",
+        "place": 17,
+        "points": 400,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999298",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "1769724",
+      "name": "Jono hayes"
+     },
+     "place": 17,
+     "points": 2300,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680980",
+        "place": 13,
+        "points": 450,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920826",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797066",
+        "place": 9,
+        "points": 500,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953322",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610372",
+        "place": 13,
+        "points": 450,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907320",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418423",
+        "place": 13,
+        "points": 450,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888040",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007159",
+        "place": 13,
+        "points": 450,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999298",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "726904",
+      "name": "Matt Habojan"
+     },
+     "place": 18,
+     "points": 2215,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10797065",
+        "place": 9,
+        "points": 500,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953322",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610362",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907320",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "11007308",
+        "place": 6,
+        "points": 583,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010709",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11010542",
+        "place": 12,
+        "points": 462,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932893",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "695473",
+      "name": "Adam Newman"
+     },
+     "place": 19,
+     "points": 2138,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680981",
+        "place": 13,
+        "points": 450,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920826",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10418428",
+        "place": 17,
+        "points": 400,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888040",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007163",
+        "place": 17,
+        "points": 400,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999298",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007315",
+        "place": 13,
+        "points": 450,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010709",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11010546",
+        "place": 14,
+        "points": 438,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932893",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "1993165",
+      "name": "Bryce Forrest"
+     },
+     "place": 20,
+     "points": 1916,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10797067",
+        "place": 9,
+        "points": 500,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953322",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10418422",
+        "place": 13,
+        "points": 450,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888040",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007310",
+        "place": 8,
+        "points": 528,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010709",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11010545",
+        "place": 14,
+        "points": 438,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932893",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "202031",
+      "name": "Paul Boyd"
+     },
+     "place": 21,
+     "points": 1863,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680984",
+        "place": 17,
+        "points": 400,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920826",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10610367",
+        "place": 9,
+        "points": 500,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907320",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418419",
+        "place": 11,
+        "points": 475,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888040",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007312",
+        "place": 10,
+        "points": 488,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010709",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "1762120",
+      "name": "Jacob Hudson"
+     },
+     "place": 22,
+     "points": 1338,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10797068",
+        "place": 14,
+        "points": 438,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953322",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10418424",
+        "place": 13,
+        "points": 450,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888040",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007161",
+        "place": 13,
+        "points": 450,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999298",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "80399",
+      "name": "Paul Holbrook"
+     },
+     "place": 23,
+     "points": 730,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "11010533",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932893",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "2073568",
+      "name": "Matthew Stubbs"
+     },
+     "place": 24,
+     "points": 450,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680979",
+        "place": 13,
+        "points": 450,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920826",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "107728",
+   "name": "MENS",
+   "rankings": [
+    {
+     "athlete": {
+      "id": "195372",
+      "name": "SOREN SMITH"
+     },
+     "place": 1,
+     "points": 4790,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680988",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920827",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797071",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953323",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610379",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907321",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418432",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888041",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007168",
+        "place": 4,
+        "points": 670,
+        "dropped": true,
+        "eventDivision": {
+         "id": "999299",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007318",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010710",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11010515",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932902",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "9681",
+      "name": "Shane Campbell"
+     },
+     "place": 2,
+     "points": 4730,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680986",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920827",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797070",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953323",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10418429",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888041",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007165",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999299",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11010516",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932902",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "35244",
+      "name": "Ryan Curley"
+     },
+     "place": 3,
+     "points": 4393,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680991",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920827",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797073",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953323",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610376",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907321",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418436",
+        "place": 7,
+        "points": 555,
+        "dropped": true,
+        "eventDivision": {
+         "id": "888041",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007170",
+        "place": 6,
+        "points": 583,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999299",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007319",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010710",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11010517",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932902",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "86289",
+      "name": "Angus Linnegar"
+     },
+     "place": 4,
+     "points": 3208,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680989",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920827",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10418435",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888041",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007167",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999299",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007321",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010710",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11010519",
+        "place": 6,
+        "points": 583,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932902",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "35268",
+      "name": "COOPER STEEN"
+     },
+     "place": 5,
+     "points": 3020,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680990",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920827",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797072",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953323",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610378",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907321",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418444",
+        "place": 13,
+        "points": 450,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888041",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11010523",
+        "place": 9,
+        "points": 500,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932902",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "137702",
+      "name": "RIK O'LEARY"
+     },
+     "place": 6,
+     "points": 2755,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680993",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920827",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797074",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953323",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10418430",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888041",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007320",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010710",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "80301",
+      "name": "Ashton Yates"
+     },
+     "place": 7,
+     "points": 2572,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680995",
+        "place": 9,
+        "points": 500,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920827",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797077",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953323",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610382",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907321",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418439",
+        "place": 9,
+        "points": 500,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888041",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11010529",
+        "place": 12,
+        "points": 462,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932902",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "82862",
+      "name": "James Harrison"
+     },
+     "place": 8,
+     "points": 2478,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680992",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920827",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10418431",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888041",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007169",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999299",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11010521",
+        "place": 6,
+        "points": 583,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932902",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "9682",
+      "name": "Jared Hickel"
+     },
+     "place": 9,
+     "points": 1893,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10797075",
+        "place": 6,
+        "points": 583,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953323",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610377",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907321",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418443",
+        "place": 13,
+        "points": 450,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888041",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "133833",
+      "name": "Andy Greenrod"
+     },
+     "place": 10,
+     "points": 1610,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680994",
+        "place": 9,
+        "points": 500,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920827",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10610380",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907321",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "11007173",
+        "place": 9,
+        "points": 500,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999299",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "84246",
+      "name": "Tyler Simpson"
+     },
+     "place": 11,
+     "points": 1522,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10681001",
+        "place": 13,
+        "points": 450,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920827",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10610381",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907321",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "11010525",
+        "place": 12,
+        "points": 462,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932902",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "1257750",
+      "name": "Jack George"
+     },
+     "place": 12,
+     "points": 1462,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680996",
+        "place": 9,
+        "points": 500,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920827",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797078",
+        "place": 9,
+        "points": 500,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953323",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "11010528",
+        "place": 12,
+        "points": 462,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932902",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "137701",
+      "name": "Archie Long"
+     },
+     "place": 13,
+     "points": 1165,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10418433",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888041",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007171",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999299",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "127543",
+      "name": "Cameron Gillard"
+     },
+     "place": 14,
+     "points": 1055,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680997",
+        "place": 9,
+        "points": 500,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920827",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "11007172",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999299",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "593427",
+      "name": "Jeremy Knott"
+     },
+     "place": 15,
+     "points": 1017,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10610383",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907321",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "11010527",
+        "place": 12,
+        "points": 462,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932902",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "637649",
+      "name": "Jeremy Knott"
+     },
+     "place": 16,
+     "points": 1005,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680999",
+        "place": 13,
+        "points": 450,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920827",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797076",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953323",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "2386",
+      "name": "Hayden Blair"
+     },
+     "place": 17,
+     "points": 1000,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "11010514",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932902",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "82854",
+      "name": "Ben Dewhurst"
+     },
+     "place": 18,
+     "points": 962,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10418440",
+        "place": 9,
+        "points": 500,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888041",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11010526",
+        "place": 12,
+        "points": 462,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932902",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "137696",
+      "name": "Archie Turner"
+     },
+     "place": 19,
+     "points": 950,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10418442",
+        "place": 13,
+        "points": 450,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888041",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007174",
+        "place": 9,
+        "points": 500,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999299",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "1768118",
+      "name": "Hugo Holt"
+     },
+     "place": 20,
+     "points": 900,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10681000",
+        "place": 13,
+        "points": 450,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920827",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10418441",
+        "place": 13,
+        "points": 450,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888041",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "35229",
+      "name": "Jarvis Earle"
+     },
+     "place": 21,
+     "points": 860,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680987",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920827",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "41926",
+      "name": "Jax Goode"
+     },
+     "place": 21,
+     "points": 860,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "11007166",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999299",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "5031",
+      "name": "Reiss Hunt"
+     },
+     "place": 23,
+     "points": 610,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10418434",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888041",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "82892",
+      "name": "Rickard Muffinhead Sillan"
+     },
+     "place": 23,
+     "points": 610,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "11007322",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010710",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "222839",
+      "name": "Ryan Curly"
+     },
+     "place": 23,
+     "points": 610,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "11010518",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932902",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "664807",
+      "name": "Cooper Manion"
+     },
+     "place": 26,
+     "points": 583,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "11010520",
+        "place": 6,
+        "points": 583,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932902",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "35258",
+      "name": "Jaya Wardana"
+     },
+     "place": 27,
+     "points": 500,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10418438",
+        "place": 9,
+        "points": 500,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888041",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "85173",
+      "name": "Jesse Black"
+     },
+     "place": 27,
+     "points": 500,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10418437",
+        "place": 9,
+        "points": 500,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888041",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "92830",
+      "name": "Jett Linnegar"
+     },
+     "place": 27,
+     "points": 500,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "11010522",
+        "place": 9,
+        "points": 500,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932902",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "80418",
+      "name": "Rhys Young"
+     },
+     "place": 30,
+     "points": 475,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "11010524",
+        "place": 11,
+        "points": 475,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932902",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "80297",
+      "name": "Harlan Tanko"
+     },
+     "place": 31,
+     "points": 450,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680998",
+        "place": 13,
+        "points": 450,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920827",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "2236377",
+      "name": "Jay O'Dell"
+     },
+     "place": 32,
+     "points": 400,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "11010530",
+        "place": 17,
+        "points": 400,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932902",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "92929",
+   "name": "U18 Girls",
+   "rankings": [
+    {
+     "athlete": {
+      "id": "196934",
+      "name": "Mia Martin"
+     },
+     "place": 1,
+     "points": 5450,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10681024",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920823",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797094",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953319",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610422",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907317",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418391",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888037",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007134",
+        "place": 4,
+        "points": 670,
+        "dropped": true,
+        "eventDivision": {
+         "id": "999295",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007292",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010706",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11007269",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932894",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "1173305",
+      "name": "Jess Mayer"
+     },
+     "place": 2,
+     "points": 5050,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10681025",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920823",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797096",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953319",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610423",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907317",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418392",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888037",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007131",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999295",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007294",
+        "place": 3,
+        "points": 730,
+        "dropped": true,
+        "eventDivision": {
+         "id": "1010706",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11007267",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932894",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "797687",
+      "name": "Kiani Johnson"
+     },
+     "place": 3,
+     "points": 3580,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10797095",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953319",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610421",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907317",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "11007132",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999295",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007268",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932894",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "112173",
+      "name": "Summer Linnegar"
+     },
+     "place": 4,
+     "points": 3320,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10681026",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920823",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10418390",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888037",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007133",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999295",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007293",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010706",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "85004",
+      "name": "Havana Anderson"
+     },
+     "place": 5,
+     "points": 2010,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10681027",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920823",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10418393",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888037",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007295",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010706",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "92928",
+   "name": "U16 Girls",
+   "rankings": [
+    {
+     "athlete": {
+      "id": "85004",
+      "name": "Havana Anderson"
+     },
+     "place": 1,
+     "points": 3000,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10681028",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920828",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797097",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953324",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "11007270",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932895",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "92927",
+   "name": "U14 Girls",
+   "rankings": [
+    {
+     "athlete": {
+      "id": "852962",
+      "name": "Gracie Harrison"
+     },
+     "place": 1,
+     "points": 6000,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680943",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920821",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797092",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953317",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610419",
+        "place": 2,
+        "points": 860,
+        "dropped": true,
+        "eventDivision": {
+         "id": "907315",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418380",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888048",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007124",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999293",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007283",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010704",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11007272",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932896",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "105184",
+      "name": "Alice Vine"
+     },
+     "place": 2,
+     "points": 3590,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10610418",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907315",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "11007125",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999293",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007285",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010704",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11007271",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932896",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "127511",
+      "name": "Chloe Mclintock"
+     },
+     "place": 3,
+     "points": 3440,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680944",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920821",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797093",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953317",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610420",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907315",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418381",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888048",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "1250414",
+      "name": "Maya Lily Johnsen"
+     },
+     "place": 4,
+     "points": 860,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "11007284",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010704",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "92926",
+   "name": "U12 Girls",
+   "rankings": [
+    {
+     "athlete": {
+      "id": "1250414",
+      "name": "Maya Lily Johnsen"
+     },
+     "place": 1,
+     "points": 1000,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "11007273",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932897",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "92925",
+   "name": "U18 Boys",
+   "rankings": [
+    {
+     "athlete": {
+      "id": "41926",
+      "name": "Jax Goode"
+     },
+     "place": 1,
+     "points": 5145,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680954",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920824",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797043",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953320",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610353",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907318",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418404",
+        "place": 10,
+        "points": 488,
+        "dropped": true,
+        "eventDivision": {
+         "id": "888038",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007136",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999296",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007298",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010707",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11010549",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932898",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "80297",
+      "name": "Harlan Tanko"
+     },
+     "place": 2,
+     "points": 4920,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680956",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920824",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797044",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953320",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610351",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907318",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418395",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888038",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007296",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010707",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11010550",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932898",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "133833",
+      "name": "Andy Greenrod"
+     },
+     "place": 3,
+     "points": 4870,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680957",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920824",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797047",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953320",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610349",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907318",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418394",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888038",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007135",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999296",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007297",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010707",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11010555",
+        "place": 7,
+        "points": 555,
+        "dropped": true,
+        "eventDivision": {
+         "id": "932898",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "638244",
+      "name": "Cameron Gillard"
+     },
+     "place": 4,
+     "points": 4600,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680960",
+        "place": 6,
+        "points": 583,
+        "dropped": true,
+        "eventDivision": {
+         "id": "920824",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797045",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953320",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610347",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907318",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418398",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888038",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007137",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999296",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007299",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010707",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11010553",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932898",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "137696",
+      "name": "Archie Turner"
+     },
+     "place": 5,
+     "points": 4285,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680955",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920824",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797046",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953320",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610354",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907318",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418396",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888038",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007139",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999296",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11010552",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932898",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "85173",
+      "name": "Jesse Black"
+     },
+     "place": 6,
+     "points": 4083,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680959",
+        "place": 6,
+        "points": 583,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920824",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797049",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953320",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610348",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907318",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418402",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888038",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007138",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999296",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11010554",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932898",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "112270",
+      "name": "Oliver Pyne"
+     },
+     "place": 7,
+     "points": 3733,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680958",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920824",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797048",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953320",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610352",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907318",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418403",
+        "place": 10,
+        "points": 488,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888038",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007141",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999296",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11010551",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932898",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "92830",
+      "name": "Jett Linnegar"
+     },
+     "place": 8,
+     "points": 2418,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680961",
+        "place": 8,
+        "points": 528,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920824",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10418397",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888038",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007140",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999296",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007300",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010707",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "92832",
+      "name": "Jesse Steen"
+     },
+     "place": 9,
+     "points": 1686,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10680962",
+        "place": 8,
+        "points": 528,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920824",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10610350",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907318",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418405",
+        "place": 10,
+        "points": 488,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888038",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "85174",
+      "name": "Phoenix Black"
+     },
+     "place": 10,
+     "points": 610,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10418399",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888038",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "70699",
+      "name": "Nate Holbrook"
+     },
+     "place": 11,
+     "points": 555,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10418401",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888038",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "127542",
+      "name": "Saxon West"
+     },
+     "place": 11,
+     "points": 555,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10418400",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888038",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "92924",
+   "name": "U16 Boys",
+   "rankings": [
+    {
+     "athlete": {
+      "id": "127542",
+      "name": "Saxon West"
+     },
+     "place": 1,
+     "points": 5313,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10681002",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920829",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797081",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953325",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610384",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907323",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418445",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888043",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007175",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999301",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11010562",
+        "place": 6,
+        "points": 583,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932899",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "85174",
+      "name": "Phoenix Black"
+     },
+     "place": 2,
+     "points": 5040,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10681003",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920829",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797079",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953325",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610386",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907323",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418446",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888043",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007177",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999301",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11010557",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932899",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "80266",
+      "name": "Tommy Miller"
+     },
+     "place": 3,
+     "points": 4420,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10681006",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920829",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797084",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953325",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610387",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907323",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418455",
+        "place": 10,
+        "points": 488,
+        "dropped": true,
+        "eventDivision": {
+         "id": "888043",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007178",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999301",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007323",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010712",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11010558",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932899",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "712369",
+      "name": "Oscar Addison"
+     },
+     "place": 4,
+     "points": 4116,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10681004",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920829",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797080",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953325",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610391",
+        "place": 8,
+        "points": 528,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907323",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418453",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888043",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007176",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999301",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11010561",
+        "place": 6,
+        "points": 583,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932899",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "1565528",
+      "name": "Kai Simpson"
+     },
+     "place": 5,
+     "points": 3861,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10681007",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920829",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797082",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953325",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610389",
+        "place": 6,
+        "points": 583,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907323",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418456",
+        "place": 10,
+        "points": 488,
+        "dropped": true,
+        "eventDivision": {
+         "id": "888043",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007179",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999301",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007324",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010712",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11010563",
+        "place": 8,
+        "points": 528,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932899",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "112171",
+      "name": "Harry Miller"
+     },
+     "place": 6,
+     "points": 3730,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10681008",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920829",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797085",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953325",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610392",
+        "place": 8,
+        "points": 528,
+        "dropped": true,
+        "eventDivision": {
+         "id": "907323",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418450",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888043",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007180",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999301",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007325",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010712",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11010559",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932899",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "195998",
+      "name": "Bede Smith"
+     },
+     "place": 7,
+     "points": 2973,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10681009",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920829",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797083",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953325",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610390",
+        "place": 6,
+        "points": 583,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907323",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418452",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888043",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007326",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010712",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "70699",
+      "name": "Nate Holbrook"
+     },
+     "place": 8,
+     "points": 2810,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10681005",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920829",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10610385",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907323",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418449",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888043",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11010560",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932899",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "84902",
+      "name": "Maxwell Hawkins"
+     },
+     "place": 9,
+     "points": 1098,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10610388",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907323",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418454",
+        "place": 10,
+        "points": 488,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888043",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "80250",
+      "name": "Sonny Leong"
+     },
+     "place": 10,
+     "points": 1000,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "11010556",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932899",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "87798",
+      "name": "Tommy Hegarty"
+     },
+     "place": 11,
+     "points": 730,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10418447",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888043",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "127267",
+      "name": "Taj Yates"
+     },
+     "place": 12,
+     "points": 670,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10418448",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888043",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "683235",
+      "name": "Oxley Young"
+     },
+     "place": 13,
+     "points": 555,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10418451",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888043",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "92923",
+   "name": "U14 Boys",
+   "rankings": [
+    {
+     "athlete": {
+      "id": "683235",
+      "name": "Oxley Young"
+     },
+     "place": 1,
+     "points": 5390,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10681016",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920820",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10610410",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907314",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418374",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888047",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007115",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999292",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007278",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010703",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11010564",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932900",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "87798",
+      "name": "Tommy Hegarty"
+     },
+     "place": 2,
+     "points": 5260,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10681015",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920820",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797086",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953316",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610412",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907314",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418371",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888047",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007116",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999292",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007281",
+        "place": 5,
+        "points": 610,
+        "dropped": true,
+        "eventDivision": {
+         "id": "1010703",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11010567",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932900",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "127267",
+      "name": "Taj Yates"
+     },
+     "place": 3,
+     "points": 4520,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10797087",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953316",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610411",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907314",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418375",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888047",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007117",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999292",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007279",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010703",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11010566",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932900",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "1171536",
+      "name": "Tom Iverach"
+     },
+     "place": 4,
+     "points": 4164,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10681020",
+        "place": 6,
+        "points": 583,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920820",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797090",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953316",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610416",
+        "place": 6,
+        "points": 583,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907314",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418372",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888047",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007123",
+        "place": 8,
+        "points": 528,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999292",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007277",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010703",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11010571",
+        "place": 8,
+        "points": 528,
+        "dropped": true,
+        "eventDivision": {
+         "id": "932900",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "713902",
+      "name": "Ollie Orr"
+     },
+     "place": 5,
+     "points": 3879,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10681018",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920820",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797088",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953316",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610415",
+        "place": 6,
+        "points": 583,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907314",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418373",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888047",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007121",
+        "place": 6,
+        "points": 583,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999292",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11010570",
+        "place": 6,
+        "points": 583,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932900",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "1628429",
+      "name": "Nat Spinner"
+     },
+     "place": 6,
+     "points": 3175,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10681021",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920820",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10610413",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907314",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418376",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888047",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007118",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999292",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007280",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010703",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "2029390",
+      "name": "Jacob Gillard"
+     },
+     "place": 7,
+     "points": 2973,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10681022",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920820",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797089",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953316",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10418378",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888047",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007119",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999292",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11010569",
+        "place": 6,
+        "points": 583,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932900",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "725067",
+      "name": "Rio Sheppard"
+     },
+     "place": 8,
+     "points": 2478,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10681017",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920820",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10610414",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907314",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "11007122",
+        "place": 8,
+        "points": 528,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999292",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007282",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010703",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "670835",
+      "name": "Dash germano"
+     },
+     "place": 9,
+     "points": 2304,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10681019",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920820",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10797091",
+        "place": 6,
+        "points": 583,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953316",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10610417",
+        "place": 8,
+        "points": 528,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907314",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "11007120",
+        "place": 6,
+        "points": 583,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999292",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "238743",
+      "name": "Jay O’Dell"
+     },
+     "place": 10,
+     "points": 1055,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10681023",
+        "place": 9,
+        "points": 500,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920820",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10418377",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888047",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "80250",
+      "name": "Sonny Leong"
+     },
+     "place": 11,
+     "points": 860,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "11010565",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932900",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "2236377",
+      "name": "Jay O'Dell"
+     },
+     "place": 12,
+     "points": 670,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "11010568",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932900",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "1515250",
+      "name": "Dash Germano"
+     },
+     "place": 13,
+     "points": 500,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10418379",
+        "place": 9,
+        "points": 500,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888047",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "92922",
+   "name": "U12 Boys",
+   "rankings": [
+    {
+     "athlete": {
+      "id": "1185380",
+      "name": "Hugo Kordovolos"
+     },
+     "place": 1,
+     "points": 1860,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10681014",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920818",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10418370",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888045",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "725067",
+      "name": "Rio Sheppard"
+     },
+     "place": 2,
+     "points": 1670,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10418369",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888045",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11010575",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932901",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "86840",
+      "name": "Harvey Richards"
+     },
+     "place": 3,
+     "points": 1000,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "11010572",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932901",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "140502",
+      "name": "Michael Lunniss"
+     },
+     "place": 4,
+     "points": 860,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "11010573",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932901",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "670835",
+      "name": "Dash germano"
+     },
+     "place": 5,
+     "points": 730,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "11010574",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932901",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "6289",
+   "name": "WOMENS",
+   "rankings": [
+    {
+     "athlete": {
+      "id": "106835",
+      "name": "April Davey"
+     },
+     "place": 1,
+     "points": 5860,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10610393",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907324",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10797098",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953326",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10418458",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888044",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007181",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999302",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007327",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010713",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11007274",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932903",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "80597",
+      "name": "Samantha Oakes"
+     },
+     "place": 2,
+     "points": 4980,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10681010",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920830",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10610394",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907324",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10797099",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953326",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10418459",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888044",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007184",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999302",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007330",
+        "place": 4,
+        "points": 670,
+        "dropped": true,
+        "eventDivision": {
+         "id": "1010713",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       },
+       {
+        "id": "11007275",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932903",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "196934",
+      "name": "Mia Martin"
+     },
+     "place": 3,
+     "points": 3940,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10681011",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920830",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10610397",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907324",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10418457",
+        "place": 1,
+        "points": 1000,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888044",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007186",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999302",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007328",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010713",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "112173",
+      "name": "Summer Linnegar"
+     },
+     "place": 4,
+     "points": 2990,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10681012",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920830",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10418460",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888044",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007182",
+        "place": 2,
+        "points": 860,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999302",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       },
+       {
+        "id": "11007329",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010713",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "1201079",
+      "name": "Natalia Knight"
+     },
+     "place": 5,
+     "points": 1890,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10797101",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953326",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       },
+       {
+        "id": "10418461",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888044",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007331",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "1010713",
+         "event": {
+          "id": "560816",
+          "date": "2026-10-10T21:00:00Z",
+          "name": "EB-CT : Oct 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "1173305",
+      "name": "Jess Mayer"
+     },
+     "place": 6,
+     "points": 1835,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10681013",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "920830",
+         "event": {
+          "id": "509534",
+          "date": "2026-05-16T22:00:00Z",
+          "name": "EB-CT : May 2026"
+         }
+        }
+       },
+       {
+        "id": "10418462",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "888044",
+         "event": {
+          "id": "482248",
+          "date": "2026-03-14T21:00:00Z",
+          "name": "EB-CT : March 2026"
+         }
+        }
+       },
+       {
+        "id": "11007187",
+        "place": 7,
+        "points": 555,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999302",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "802472",
+      "name": "Matilda Thearle"
+     },
+     "place": 7,
+     "points": 1460,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10610395",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907324",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "10797100",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "953326",
+         "event": {
+          "id": "530027",
+          "date": "2026-07-18T22:00:00Z",
+          "name": "EB-CT : July 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "797687",
+      "name": "Kiani Johnson"
+     },
+     "place": 8,
+     "points": 1400,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "10610396",
+        "place": 4,
+        "points": 670,
+        "dropped": null,
+        "eventDivision": {
+         "id": "907324",
+         "event": {
+          "id": "496829",
+          "date": "2026-04-18T22:00:00Z",
+          "name": "EB-CT : April 26"
+         }
+        }
+       },
+       {
+        "id": "11007183",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999302",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "868439",
+      "name": "Pippy Simpson"
+     },
+     "place": 9,
+     "points": 730,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "11007276",
+        "place": 3,
+        "points": 730,
+        "dropped": null,
+        "eventDivision": {
+         "id": "932903",
+         "event": {
+          "id": "518312",
+          "date": "2026-08-21T22:00:00Z",
+          "name": "2026 Dunny Bowl + ABB Kings/Queens of the Beach"
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "athlete": {
+      "id": "852962",
+      "name": "Gracie Harrison"
+     },
+     "place": 10,
+     "points": 610,
+     "detail": {
+      "resultsToCount": 6,
+      "eligibleResults": null,
+      "eventsToCount": [],
+      "results": [
+       {
+        "id": "11007185",
+        "place": 5,
+        "points": 610,
+        "dropped": null,
+        "eventDivision": {
+         "id": "999302",
+         "event": {
+          "id": "555041",
+          "date": "2026-09-12T22:00:00Z",
+          "name": "EB-CT : Sept 2026"
+         }
+        }
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "retrievedAt": "2026-10-13T00:53:39.223Z"
+}

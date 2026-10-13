@@ -99,14 +99,14 @@ export function formatSydneyTime(iso: string): string {
 
 function eventCells(row: RankedRow, season: SeasonConfig): EventCellVM[] {
   const counted = new Set(row.standing.counted.map((r) => r.resultId));
-  const byEvent = new Map([...row.standing.counted, ...row.standing.discarded].map((r) => [r.eventId, r]));
+  const byEvent = new Map([...row.standing.counted, ...row.standing.discarded].map((r) => [r.eventOrder, r]));
 
-  return season.events.map((event): EventCellVM => {
+  return season.events.map((event, order): EventCellVM => {
     const base = { label: event.label, short: event.short };
     if (event.status === "pending") {
       return { ...base, status: "pending", points: null, place: null, srText: `${event.label}, pending` };
     }
-    const result = event.id ? byEvent.get(event.id) : undefined;
+    const result = byEvent.get(order);
     if (!result) return { ...base, status: "absent", points: null, place: null, srText: `${event.label}, no result` };
     const status = counted.has(result.resultId) ? "counted" : "discarded";
     return {
