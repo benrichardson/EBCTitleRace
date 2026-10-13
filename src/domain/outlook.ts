@@ -14,6 +14,17 @@ export interface Contender {
 /** Verified place → points pairs. Missing places are unknown, never interpolated. */
 export type PointsScale = ReadonlyMap<number, number>;
 
+/** Stand-in for someone with no results yet who could still enter the November event. */
+export const NEW_ENTRANT_ID = "new-entrant";
+
+/**
+ * Adds a hypothetical new entrant on zero points (decision 2026-10-13), so no claim
+ * assumes the field is closed. A November win gives them the maximum event points.
+ */
+export function withPossibleNewEntrant(rivals: readonly Contender[]): Contender[] {
+  return [...rivals, { athleteId: NEW_ENTRANT_ID, total: 0, replacement: 0 }];
+}
+
 const maxTotal = (c: Contender, maxPoints: number) => projectTotal(c, maxPoints);
 const ids = (cs: Contender[]) => cs.map((c) => c.athleteId);
 

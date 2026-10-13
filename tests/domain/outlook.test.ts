@@ -5,9 +5,11 @@ import {
   headToHead,
   improvementThreshold,
   isTitleClinched,
+  NEW_ENTRANT_ID,
   reachableRivals,
   threateningRivals,
   type Contender,
+  withPossibleNewEntrant,
 } from "@/domain/outlook";
 
 const MAX = 1000;
@@ -152,5 +154,23 @@ describe("headToHead", () => {
     const h = headToHead({ projectedTotal: 4520, place: 1 }, c("cam", 4500, 400), SCALE);
     expect(h.maxSafeRivalPoints).toBe(419);
     expect(h.safeFromPlace).toBeNull();
+  });
+});
+
+describe("possible November new entrants", () => {
+  it("prevents a clinch when the athlete's total does not beat a new entrant winning November", () => {
+    const rivals = withPossibleNewEntrant([]);
+    expect(isTitleClinched(c("me", 1000, 0), rivals, MAX)).toBe(false);
+    expect(isTitleClinched(c("me", 1001, 0), rivals, MAX)).toBe(true);
+  });
+
+  it("counts a new entrant in the conservative rank bound and identifies it", () => {
+    const r = conservativeRankBound(c("me", 1000, 0), withPossibleNewEntrant([]), MAX);
+    expect(r.rank).toBe(2);
+    expect(r.possibleTies).toEqual([NEW_ENTRANT_ID]);
+  });
+
+  it("does not change the best rank if rivals stay unchanged", () => {
+    expect(bestRankIfRivalsUnchanged(c("me", 500, 0), withPossibleNewEntrant([]), MAX).rank).toBe(1);
   });
 });
