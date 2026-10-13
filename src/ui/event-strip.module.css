@@ -1,0 +1,92 @@
+.strip {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: var(--line);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-2);
+  overflow: hidden;
+}
+
+.strip[hidden] {
+  display: none;
+}
+
+.cell {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+  padding: var(--space-2) var(--space-3);
+  background: var(--surface);
+}
+
+.month {
+  align-self: flex-start;
+  font-size: var(--text-xs);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+.value {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+
+.cell[data-status="discarded"] .value {
+  color: var(--discarded-fg);
+  font-weight: 400;
+}
+
+.cell[data-status="absent"] .value {
+  color: var(--ink-3);
+  font-weight: 400;
+}
+
+.cell[data-status="pending"] {
+  background: var(--pending-bg);
+  outline: 1px dashed var(--pending-line);
+  outline-offset: -3px;
+}
+
+.cell[data-status="pending"] .value,
+.cell[data-status="pending"] .month {
+  color: var(--pending-fg);
+}
+
+.cell[data-status="pending"] .value {
+  font-size: var(--text-sm);
+}
+
+@media (min-width: 900px) {
+  .strip {
+    grid-template-columns: repeat(8, 1fr);
+  }
+
+  .strip[data-inline],
+  .strip[data-inline][hidden] {
+    display: grid;
+    gap: 0;
+    background: none;
+    border: 0;
+    border-radius: 0;
+  }
+
+  .strip[data-inline] .cell {
+    padding: var(--space-1) var(--space-2);
+    background: none;
+  }
+
+  .strip[data-inline] .cell[data-status="pending"] {
+    background: var(--pending-bg);
+  }
+
+  .strip[data-inline] .month {
+    display: none;
+  }
+}
