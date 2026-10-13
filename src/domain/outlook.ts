@@ -88,7 +88,11 @@ export type HeadToHeadOutcome = "athleteAhead" | "tie" | "rivalAhead";
  * Compare a projected own result with one rival's possible November finishes.
  * The rival cannot take the athlete's own (unique) place.
  */
-export function headToHead(own: { projectedTotal: number; place: number }, rival: Contender, scale: PointsScale) {
+export function headToHead(
+  own: { projectedTotal: number; /** null when the row covers several own places ("3rd or lower"). */ place: number | null },
+  rival: Contender,
+  scale: PointsScale,
+) {
   const T = own.projectedTotal;
   const R = rival.total;
   const q = rival.replacement;
@@ -124,4 +128,56 @@ export function headToHead(own: { projectedTotal: number; place: number }, rival
     safeFromPlace,
     tiePlaces: finishes.filter((f) => f.outcome === "tie").map((f) => f.place),
   };
+}
+
+export interface OwnFinishScenario {
+  fromPlace: number;
+  /** True when this row stands for this place and every place below it. */
+  orLower: boolean;
+  points: number;
+  total: number;
+  gain: number;
+}
+
+/**
+ * The athlete's own November finishes worth showing: 1st–4th individually, then the
+ * first finish that adds nothing as "Nth or lower". Grouping relies on points never
+ * rising with place (validated in config), so every lower place adds nothing too.
+ */
+export function ownFinishScenarios(own: Contender, scale: PointsScale, individually = 4): OwnFinishScenario[] {
+  const rows: OwnFinishScenario[] = [];
+  for (const [place, points] of [...scale.entries()].sort(([a], [b]) => a - b)) {
+    const total = projectTotal(own, points);
+    const gain = total - own.total;
+    if (gain === 0) {
+      rows.push({ fromPlace: place, orLower: true, points, total, gain });
+      break;
+    }
+    if (place <= individually) rows.push({ fromPlace: place, orLower: false, points, total, gain });
+  }
+  return rows;
+}
+
+/**
+ * Rivals worth a head-to-head: the leader if the title is reachable, the nearest
+ * reachable rival above or level, and the nearest rivals below who can catch the
+ * athlete (all those level on that total). Returned in field order, at most `limit`.
+ * `rivals` must be in rank order and exclude the athlete.
+ */
+export function selectRivals(own: Contender, rivals: readonly Contender[], maxPoints: number, limit = 3): string[] {
+  const ownMax = maxTotal(own, maxPoints);
+  const picked = new Set<string>();
+
+  const leader = rivals[0];
+  if (leader && leader.total >= own.total && leader.total <= ownMax) picked.add(leader.athleteId);
+
+  const above = rivals.filter((r) => r.total >= own.total && r.total <= ownMax);
+  const nearestAbove = above.at(-1);
+  if (nearestAbove) picked.add(nearestAbove.athleteId);
+
+  const threats = rivals.filter((r) => r.total <= own.total && !picked.has(r.athleteId) && maxTotal(r, maxPoints) >= own.total);
+  const nearestThreatTotal = threats[0]?.total;
+  for (const r of threats) if (r.total === nearestThreatTotal) picked.add(r.athleteId);
+
+  return rivals.filter((r) => picked.has(r.athleteId)).slice(0, limit).map((r) => r.athleteId);
 }

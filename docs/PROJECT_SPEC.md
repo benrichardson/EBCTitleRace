@@ -17,7 +17,7 @@ Reference prototype: https://ebc-live-rankings.benricho.chatgpt.site
 Source series: https://liveheats.com/ebc/rankings?series=61709&division=107730
 Source series name: **2026 EB-CT**. Remaining event: **November pool event**. Exact date is not yet supplied. The pool uses the same points scale as the other series events, confirmed by Ben Richardson.
 
-V1 includes all divisions, event-by-event results, counted/discarded scores, individual pages, short personal outlooks, head-to-head scenarios, and an optional advanced calculator. No sign-in, payments, print button, modal detail views, probabilistic predictions, notifications, or new competition-management system.
+V1 includes all divisions, event-by-event results, counted/discarded scores, individual pages, short personal outlooks and head-to-head scenarios. No sign-in, payments, print button, modal detail views, probabilistic predictions, notifications, or new competition-management system.
 
 ## 2. Confirmed division configuration
 
@@ -131,6 +131,8 @@ Example copy: “If you finish second, you reach 4,xxx. Cam must finish fourth o
 Show own first–fourth scenarios plus the first non-improving finish where helpful. Group identical outcomes, e.g. “Fifth or lower”, only when all members of that group produce the same own total. Grouped rows must not exclude a rival finish merely because it shares the group’s starting label: the athlete could finish another place within the group.
 
 ## 7. Advanced calculator
+
+> **Dropped (decision 2026-10-13).** Not part of V1; kept below for reference only.
 
 Keep beneath an expandable “Explore every result and build your own scenario” section. Changing a selection must preserve expansion, focus, scroll and previously chosen rival results.
 
