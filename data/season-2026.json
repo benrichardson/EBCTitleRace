@@ -1,48 +1,184 @@
 {
   "rulesVersion": "2026-10-13",
   "season": 2026,
-  "series": { "id": "61709", "name": "2026 EB-CT" },
+  "series": {
+    "id": "61709",
+    "name": "2026 EB-CT"
+  },
   "defaultDivisionId": "92925",
   "maxEventPoints": 1000,
   "divisions": [
-    { "id": "107730", "name": "Originals (O50)", "resultsToCount": 5 },
-    { "id": "107729", "name": "Masters (O35)", "resultsToCount": 6 },
-    { "id": "107728", "name": "MENS", "resultsToCount": 6 },
-    { "id": "92929", "name": "U18 Girls", "resultsToCount": 6 },
-    { "id": "92928", "name": "U16 Girls", "resultsToCount": 6 },
-    { "id": "92927", "name": "U14 Girls", "resultsToCount": 6 },
-    { "id": "92926", "name": "U12 Girls", "resultsToCount": 6 },
-    { "id": "92925", "name": "U18 Boys", "resultsToCount": 6 },
-    { "id": "92924", "name": "U16 Boys", "resultsToCount": 6 },
-    { "id": "92923", "name": "U14 Boys", "resultsToCount": 6 },
-    { "id": "92922", "name": "U12 Boys", "resultsToCount": 6 },
-    { "id": "6289", "name": "WOMENS", "resultsToCount": 6 }
+    {
+      "id": "92922",
+      "name": "U12 Boys",
+      "resultsToCount": 6
+    },
+    {
+      "id": "92923",
+      "name": "U14 Boys",
+      "resultsToCount": 6
+    },
+    {
+      "id": "92924",
+      "name": "U16 Boys",
+      "resultsToCount": 6
+    },
+    {
+      "id": "92925",
+      "name": "U18 Boys",
+      "resultsToCount": 6
+    },
+    {
+      "id": "92926",
+      "name": "U12 Girls",
+      "resultsToCount": 6
+    },
+    {
+      "id": "92927",
+      "name": "U14 Girls",
+      "resultsToCount": 6
+    },
+    {
+      "id": "92928",
+      "name": "U16 Girls",
+      "resultsToCount": 6
+    },
+    {
+      "id": "92929",
+      "name": "U18 Girls",
+      "resultsToCount": 6
+    },
+    {
+      "id": "6289",
+      "name": "Womens",
+      "resultsToCount": 6
+    },
+    {
+      "id": "107728",
+      "name": "Mens",
+      "resultsToCount": 6
+    },
+    {
+      "id": "107729",
+      "name": "Masters (O35)",
+      "resultsToCount": 6
+    },
+    {
+      "id": "107730",
+      "name": "Originals (O50)",
+      "resultsToCount": 5
+    }
   ],
   "events": [
-    { "id": "482248", "label": "March", "status": "completed" },
-    { "id": "496829", "label": "April", "status": "completed" },
-    { "id": "509534", "label": "May", "status": "completed" },
-    { "id": "530027", "label": "July", "status": "completed" },
-    { "id": "518312", "label": "August / Dunny Bowl", "status": "completed" },
-    { "id": "555041", "label": "September", "status": "completed" },
-    { "id": "560816", "label": "October", "status": "completed" },
-    { "id": null, "label": "November / Pool", "status": "pending" }
+    {
+      "id": "482248",
+      "label": "March",
+      "status": "completed",
+      "short": "Mar"
+    },
+    {
+      "id": "496829",
+      "label": "April",
+      "status": "completed",
+      "short": "Apr"
+    },
+    {
+      "id": "509534",
+      "label": "May",
+      "status": "completed",
+      "short": "May"
+    },
+    {
+      "id": "530027",
+      "label": "July",
+      "status": "completed",
+      "short": "Jul"
+    },
+    {
+      "id": "518312",
+      "label": "August / Dunny Bowl",
+      "status": "completed",
+      "short": "Aug"
+    },
+    {
+      "id": "555041",
+      "label": "September",
+      "status": "completed",
+      "short": "Sep"
+    },
+    {
+      "id": "560816",
+      "label": "October",
+      "status": "completed",
+      "short": "Oct"
+    },
+    {
+      "id": null,
+      "label": "November pool event",
+      "status": "pending",
+      "short": "Nov"
+    }
   ],
   "verifiedPoints": [
-    { "place": 1, "points": 1000 },
-    { "place": 2, "points": 860 },
-    { "place": 3, "points": 730 },
-    { "place": 4, "points": 670 },
-    { "place": 5, "points": 610 },
-    { "place": 6, "points": 583 },
-    { "place": 7, "points": 555 },
-    { "place": 8, "points": 528 },
-    { "place": 9, "points": 500 },
-    { "place": 10, "points": 488 },
-    { "place": 11, "points": 475 },
-    { "place": 12, "points": 462 },
-    { "place": 13, "points": 450 },
-    { "place": 14, "points": 438 },
-    { "place": 17, "points": 400 }
+    {
+      "place": 1,
+      "points": 1000
+    },
+    {
+      "place": 2,
+      "points": 860
+    },
+    {
+      "place": 3,
+      "points": 730
+    },
+    {
+      "place": 4,
+      "points": 670
+    },
+    {
+      "place": 5,
+      "points": 610
+    },
+    {
+      "place": 6,
+      "points": 583
+    },
+    {
+      "place": 7,
+      "points": 555
+    },
+    {
+      "place": 8,
+      "points": 528
+    },
+    {
+      "place": 9,
+      "points": 500
+    },
+    {
+      "place": 10,
+      "points": 488
+    },
+    {
+      "place": 11,
+      "points": 475
+    },
+    {
+      "place": 12,
+      "points": 462
+    },
+    {
+      "place": 13,
+      "points": 450
+    },
+    {
+      "place": 14,
+      "points": 438
+    },
+    {
+      "place": 17,
+      "points": 400
+    }
   ]
 }

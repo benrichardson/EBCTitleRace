@@ -8,6 +8,8 @@ export interface EventConfig {
   /** LiveHeats event ID; null until a pending event is verified. */
   id: string | null;
   label: string;
+  /** Three-letter label for compact grids. */
+  short: string;
   status: "completed" | "pending";
 }
 
@@ -17,6 +19,7 @@ export interface SeasonConfig {
   series: { id: string; name: string };
   defaultDivisionId: string;
   maxEventPoints: number;
+  /** In display order for division navigation. */
   divisions: DivisionConfig[];
   /** In chronological order. */
   events: EventConfig[];
@@ -48,7 +51,8 @@ export function loadSeasonConfig(input: any): SeasonConfig {
   const events: EventConfig[] = (input.events ?? []).map((e: any) => {
     if (e?.status !== "completed" && e?.status !== "pending") fail(`event status for ${e?.label}`);
     if (e.status === "completed" && !isNonEmptyString(e.id)) fail(`completed event ${e.label} needs an id`);
-    return { id: e.id ?? null, label: String(e.label), status: e.status };
+    if (!isNonEmptyString(e.short)) fail(`event short label for ${e.label}`);
+    return { id: e.id ?? null, label: String(e.label), short: e.short, status: e.status };
   });
   const eventIds = events.map((e) => e.id).filter((id): id is string => id !== null);
   if (new Set(eventIds).size !== eventIds.length) fail("duplicate event id");
