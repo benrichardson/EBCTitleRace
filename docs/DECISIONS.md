@@ -29,3 +29,9 @@ PRs merge automatically once typecheck, tests and build pass; no human review is
 ## 2026-10-13 — No scenario calculator (Ben Richardson)
 
 The "Explore every result and build your own scenario" calculator (spec §7) is dropped. The outlook bullets and head-to-head tables cover what visitors need.
+
+## 2026-10-13 — November pool event: two LiveHeats events; entries later (Ben Richardson)
+
+The November pool event (15 Nov 2026, Urbn Surf, Homebush) runs as two LiveHeats events because it uses different banks: 556196 (U12 Boys, U14 Boys, all girls' divisions, Womens, Mens, Masters, Originals; its "Parent Assist" division is not in the series) and 511448 (U16 Boys, U18 Boys). Together they are **one** series event: when results arrive, map both IDs to the single November event and reject any athlete with results in both for the same division.
+
+Entries are closed but the entrant list isn't published, and organisers may still add surfers. Until it is published, every surfer in a division is treated as able to score in November. Later: once a final entrant list is available, use it so non-entrants' totals are final (stronger clinches, fewer rivals in "who can catch you", field size caps possible finishes). Open question for then: whether an entered no-show scores any points.
