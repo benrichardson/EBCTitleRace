@@ -15,7 +15,7 @@ This is a deterministic championship scenario tool, not a probability forecast. 
 
 Reference prototype: https://ebc-live-rankings.benricho.chatgpt.site
 Source series: https://liveheats.com/ebc/rankings?series=61709&division=107730
-Source series name: **2026 EB-CT**. Remaining event: **November pool event**. Exact date is not yet supplied. The pool uses the same points scale as the other series events, confirmed by Ben Richardson.
+Source series name: **2026 EB-CT**. Remaining event: **November pool event**, 15 November 2026 at Urbn Surf, Homebush, run as two LiveHeats events on different banks (see §3). The pool uses the same points scale as the other series events, confirmed by Ben Richardson.
 
 V1 includes all divisions, event-by-event results, counted/discarded scores, individual pages, short personal outlooks and head-to-head scenarios. No sign-in, payments, print button, modal detail views, probabilistic predictions, notifications, or new competition-management system.
 
@@ -53,7 +53,7 @@ The prototype snapshot includes these events, in chronological order:
 | 2026 Dunny Bowl + ABB Kings/Queens of the Beach | 518312 | August / Dunny Bowl |
 | EB-CT : Sept 2026 | 555041 | September |
 | EB-CT : Oct 2026 | 560816 | October |
-| November pool event | Not yet verified | November / Pool — pending |
+| EB-CT : Nov 2026 - Urbn Surf Pool Event (15 Nov 2026, Homebush) | 556196 (10 divisions) + 511448 (U16 Boys, U18 Boys) | November pool event — pending |
 
 Include the Dunny Bowl because its results are in this series. Do not invent June or other absent events. An absent athlete result is not proof that a division’s results have been finalised. Confirm division-level completeness, especially when someone has no October result.
 
