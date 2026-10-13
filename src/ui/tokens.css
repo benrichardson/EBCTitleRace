@@ -10,7 +10,7 @@
 
   --ink: #15171a;
   --ink-2: #4a4e55;
-  --ink-3: #6a6f77;
+  --ink-3: #61666e;
 
   --accent: #f2542d;
   --accent-text: #b93a17;
@@ -154,6 +154,11 @@ a {
 :focus-visible {
   outline: 2px solid var(--focus);
   outline-offset: 2px;
+}
+
+s {
+  text-decoration-line: line-through;
+  text-decoration-thickness: 0.12em;
 }
 
 .sr-only {

@@ -83,7 +83,18 @@
   }
 
   .strip[data-inline] .cell[data-status="pending"] {
-    background: var(--pending-bg);
+    background: none;
+    outline: none;
+  }
+
+  .strip[data-inline] .cell[data-status="pending"] .value {
+    font-size: var(--text-xs);
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    border-bottom: 1px dashed var(--pending-line);
+    padding-bottom: 1px;
   }
 
   .strip[data-inline] .month {

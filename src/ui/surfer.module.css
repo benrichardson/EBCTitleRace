@@ -110,6 +110,17 @@
   font-variant-numeric: tabular-nums;
 }
 
+.stats > div:last-child {
+  background: var(--pending-bg);
+  outline: 1px dashed var(--pending-line);
+  outline-offset: -3px;
+}
+
+.stats > div:last-child dt,
+.stats > div:last-child dd {
+  color: var(--pending-fg);
+}
+
 .statNote {
   font-family: var(--font-text), sans-serif;
   font-weight: 400;
@@ -120,6 +131,9 @@
 .headline {
   max-width: var(--measure);
   margin: 0 0 var(--space-8);
+  font-family: var(--font-text), sans-serif;
+  font-size: var(--text-lg);
+  line-height: 1.35;
   font-weight: 600;
 }
 

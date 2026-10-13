@@ -6,6 +6,10 @@
   scrollbar-width: none;
 }
 
+.railWrap {
+  mask-image: linear-gradient(to right, transparent, #000 var(--gutter), #000 calc(100% - var(--space-6)), transparent);
+}
+
 .railWrap::-webkit-scrollbar {
   display: none;
 }
@@ -48,6 +52,7 @@
   .railWrap {
     margin: 0 0 var(--space-6);
     overflow: visible;
+    mask-image: none;
   }
 
   .rail {
@@ -238,17 +243,43 @@
 }
 
 .toggle {
+  display: grid;
+  place-items: center;
   grid-area: toggle;
   align-self: start;
   width: var(--tap-min);
   height: var(--tap-min);
   margin-top: -8px;
   font-size: var(--text-md);
-  color: var(--ink-2);
+  color: var(--ink-3);
   background: none;
   border: 0;
   border-radius: var(--radius-1);
   cursor: pointer;
+}
+
+.toggle::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  margin-top: -4px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg);
+  transition: transform var(--motion-fast);
+}
+
+.toggle[aria-expanded="true"] {
+  color: var(--ink);
+}
+
+.toggle[aria-expanded="true"]::before {
+  transform: rotate(-135deg);
+  margin-top: 4px;
+}
+
+.row[data-open] {
+  background: color-mix(in srgb, var(--surface-2) 60%, var(--surface));
 }
 
 .toggle:hover {
@@ -267,6 +298,7 @@
 .outlookLink {
   display: inline-flex;
   align-items: center;
+  gap: var(--space-2);
   min-height: var(--tap-min);
   font-size: var(--text-sm);
   font-weight: 600;
@@ -340,6 +372,17 @@
   .headEvents span {
     padding: 0 var(--space-2);
     text-align: right;
+  }
+
+  .headEvents span:last-child {
+    color: var(--pending-fg);
+  }
+
+  .columnHead {
+    position: sticky;
+    top: 53px;
+    z-index: 1;
+    background: var(--bg);
   }
 
   .headTotal {

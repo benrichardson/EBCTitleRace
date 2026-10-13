@@ -127,7 +127,6 @@ export function RankingList({
                     aria-controls={stripId}
                     onClick={() => toggle(row.athleteId)}
                   >
-                    <span aria-hidden="true">{isOpen ? "▴" : "▾"}</span>
                     <span className="sr-only">{isOpen ? "Hide" : "Show"} results for {row.name}</span>
                   </button>
                   <div className={styles.detail}>
