@@ -1,0 +1,83 @@
+/* TEMPORARY design preview. */
+.page {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 16px 96px;
+}
+
+.water {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: url("/brand/wavepool.svg") center / cover no-repeat;
+  opacity: 0.4;
+}
+
+.heading {
+  margin: 0 0 32px;
+  font-family: var(--font-display), sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.option {
+  padding: 32px 0 48px;
+  border-top: 1px solid var(--line-strong);
+}
+
+.label {
+  margin: 0 0 24px;
+  font-size: var(--text-sm);
+  color: var(--ink-2);
+}
+
+.lockup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
+  width: calc(52px * 3.39);
+  height: 52px;
+  background: var(--ink);
+  -webkit-mask: url("/brand/ebc-logo.png") center / contain no-repeat;
+  mask: url("/brand/ebc-logo.png") center / contain no-repeat;
+}
+
+.title {
+  position: relative;
+  font-family: var(--family), sans-serif;
+  font-size: calc(clamp(2rem, 8vw, 6.5rem) * var(--size));
+  line-height: 1.15;
+  white-space: nowrap;
+  color: var(--ink);
+}
+
+/* Current masthead treatment, for reference */
+.title[data-current] {
+  text-transform: uppercase;
+  line-height: 1;
+  transform: skewX(-12deg);
+  -webkit-text-stroke: 0.035em var(--bg);
+  paint-order: stroke fill;
+}
+
+.title[data-current]::before {
+  content: attr(data-text) / "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  color: var(--bg);
+  -webkit-text-stroke: 0.045em var(--ink);
+  paint-order: stroke fill;
+  text-shadow:
+    0.01em 0.01em 0 var(--bg),
+    0.02em 0.02em 0 var(--bg),
+    0.03em 0.03em 0 var(--bg),
+    0.04em 0.04em 0 var(--bg);
+  transform: translate(0.05em, 0.06em);
+}
