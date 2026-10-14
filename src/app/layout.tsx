@@ -1,7 +1,7 @@
 import { Analytics } from "@vercel/analytics/next";
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
-import { display, text } from "@/ui/fonts";
+import { display, text, wordmark } from "@/ui/fonts";
 import "@/ui/tokens.css";
 
 export const metadata: Metadata = {
@@ -10,15 +10,12 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
-    { media: "(prefers-color-scheme: dark)", color: "#171a1f" },
-  ],
+  themeColor: "#141414",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en-AU" className={`${display.variable} ${text.variable}`}>
+    <html lang="en-AU" className={`${display.variable} ${text.variable} ${wordmark.variable}`}>
       <body>
         {children}
         <Analytics />

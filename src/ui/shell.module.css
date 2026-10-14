@@ -1,59 +1,93 @@
+/* Masthead: big centred lockup that scrolls away with the page. */
 .header {
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  background: var(--surface);
-  border-bottom: 1px solid var(--line);
-  box-shadow: var(--shadow-1);
+  position: relative;
+  z-index: 1;
+}
+
+/* Faded wave-pool water behind the header and hero; fades into the page. */
+.water {
+  position: absolute;
+  inset: 0 0 auto;
+  height: clamp(560px, 80vh, 720px);
+  background: url("/brand/wavepool.svg") center / cover no-repeat;
+  opacity: 0.4;
+  -webkit-mask: linear-gradient(#000 35%, transparent);
+  mask: linear-gradient(#000 35%, transparent);
+  pointer-events: none;
 }
 
 .headerInner {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--space-3);
+  justify-content: center;
   max-width: var(--content-max);
-  min-height: 52px;
   margin: 0 auto;
-  padding: 0 var(--gutter);
+  padding: var(--space-10) var(--gutter) 0;
 }
 
 .wordmark {
+  /* Stacked lockup. --lockup is the reference size: logo at 75% of it, "Race to the Title" at 1.49x
+     (~15.3x --lockup wide), so it shrinks with the screen to stay on one line. The logo keeps a usable minimum. */
+  --lockup: min(70px, calc((100vw - 2 * var(--gutter)) / 15.3));
+  --logo-h: clamp(28px, calc(var(--lockup) * 0.75), 52.5px);
+  --wordmark-size: calc(var(--lockup) * 1.49);
   display: inline-flex;
+  flex-direction: column;
   align-items: center;
+  gap: calc(var(--lockup) * 0.3);
   min-height: var(--tap-min);
   font-family: var(--font-display), sans-serif;
-  font-weight: 700;
-  font-size: var(--text-lg);
-  letter-spacing: 0.02em;
+  font-size: 1.625rem;
+  letter-spacing: 0.01em;
   text-transform: uppercase;
   text-decoration: none;
 }
 
-.series {
-  font-size: var(--text-xs);
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--ink-2);
+.title {
+  font-family: var(--font-wordmark), var(--font-display), sans-serif;
+  font-size: var(--wordmark-size);
+  /* Box = glyph ink exactly (font metrics pinned in fonts.ts). */
+  line-height: 0.72;
+  white-space: nowrap;
+}
+
+/* Primary logo as a mask so it takes any colour. */
+.logo {
+  display: block;
+  flex: none;
+  width: calc(var(--logo-h) * 3.39);
+  height: var(--logo-h);
+  background: var(--ink);
+  -webkit-mask: url("/brand/ebc-logo.png") center / contain no-repeat;
+  mask: url("/brand/ebc-logo.png") center / contain no-repeat;
 }
 
 .main {
+  position: relative;
   max-width: var(--content-max);
   margin: 0 auto;
-  padding: var(--space-4) var(--gutter) var(--space-8);
+  padding: var(--space-10) var(--gutter) var(--space-12);
 }
 
 .footer {
   max-width: var(--content-max);
   margin: 0 auto;
-  padding: var(--space-6) var(--gutter) var(--space-10);
+  padding: var(--space-8) var(--gutter) var(--space-12);
   border-top: 1px solid var(--line);
   color: var(--ink-3);
   font-size: var(--text-xs);
+  display: flex;
+  align-items: center;
+  gap: var(--space-5);
+}
+
+.badge {
+  flex: none;
+  width: 72px;
+  height: 72px;
 }
 
 .footer p {
   margin: 0 0 var(--space-2);
   max-width: var(--measure);
 }
+

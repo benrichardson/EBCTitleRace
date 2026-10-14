@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 800" preserveAspectRatio="xMidYMid slice">
+  <!-- Wave-pool water seen from above: turquoise base, caustic light network. -->
+  <defs>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#067a8c"/>
+      <stop offset="0.5" stop-color="#14a3b3"/>
+      <stop offset="1" stop-color="#5fd0cf"/>
+    </linearGradient>
+    <!-- Thin bright veins, like sunlight through ripples on a pool floor -->
+    <filter id="caustics" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="turbulence" baseFrequency="0.009 0.024" numOctaves="2" seed="11" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.85  0 0 0 0 1  0 0 0 0 1  -9 0 0 0 1.25"/>
+      <feGaussianBlur stdDeviation="0.6"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="800" fill="url(#water)"/>
+  <rect width="1600" height="800" filter="url(#caustics)" opacity="0.55"/>
+</svg>

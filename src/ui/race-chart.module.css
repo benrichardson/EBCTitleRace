@@ -1,0 +1,129 @@
+.figure {
+  margin: 0;
+}
+
+.lanes {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-top: 3px solid var(--ink);
+}
+
+.lane {
+  display: grid;
+  grid-template-columns: minmax(0, 7.5rem) minmax(0, 1fr);
+  align-items: center;
+  gap: var(--space-3);
+  min-height: 104px;
+  border-bottom: 1px solid var(--line);
+  transition: background var(--motion-fast);
+}
+
+.lane:hover {
+  background: var(--surface-2);
+}
+
+.label {
+  padding-left: var(--space-2);
+  font-weight: 700;
+  font-size: 1.18rem; /* 135% of text-sm */
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+
+.lane[data-you] .label {
+  font-family: var(--font-display), sans-serif;
+  font-weight: 400;
+  font-size: var(--text-xl);
+  text-transform: uppercase;
+  color: var(--brand-aqua);
+}
+
+.track {
+  position: relative;
+  height: 104px;
+  margin-right: var(--space-6);
+  background: linear-gradient(var(--line-strong), var(--line-strong)) center / 100% 1px no-repeat;
+}
+
+.dot {
+  position: absolute;
+  top: 50%;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--ink);
+  transform: translate(-50%, -50%);
+  transition: transform var(--motion-base) var(--ease-out);
+}
+
+.lane[data-you] .dot {
+  width: 24px;
+  height: 24px;
+  background: var(--brand-aqua);
+  box-shadow: 0 0 0 4px var(--bg);
+}
+
+.lane:hover .dot {
+  transform: translate(-50%, -50%) scale(1.25);
+}
+
+.value {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-2);
+}
+
+.lane[data-you] .value {
+  color: var(--brand-aqua);
+}
+
+.reach {
+  position: absolute;
+  top: 50%;
+  height: 12px;
+  background: var(--brand-yellow);
+  transform: translateY(-50%);
+  transform-origin: left;
+  animation: grow 700ms var(--ease-out) both;
+}
+
+.reachLabel {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  white-space: nowrap;
+  font-size: var(--text-xs);
+  font-weight: 700;
+  color: var(--brand-yellow);
+}
+
+.caption {
+  margin-top: var(--space-3);
+  font-size: var(--text-xs);
+  color: var(--ink-3);
+}
+
+@keyframes grow {
+  from {
+    transform: translateY(-50%) scaleX(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reach {
+    animation: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .lane {
+    grid-template-columns: 14rem minmax(0, 1fr);
+  }
+}

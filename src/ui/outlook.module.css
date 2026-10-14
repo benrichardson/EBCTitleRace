@@ -1,14 +1,14 @@
 .section {
-  margin-bottom: var(--space-8);
+  margin-bottom: var(--space-12);
 }
 
 .title {
-  margin: 0 0 var(--space-3);
+  margin: 0 0 var(--space-4);
   font-family: var(--font-display), sans-serif;
-  font-weight: 600;
-  font-size: var(--text-lg);
+  font-weight: 400;
+  font-size: clamp(2rem, 9vw, 3.5rem);
+  line-height: 0.95;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
 }
 
 .items {
@@ -16,23 +16,29 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  border-top: 2px solid var(--ink);
+  border-top: 3px solid var(--ink);
 }
 
 .items li {
   position: relative;
-  padding: var(--space-3) 0 var(--space-3) var(--space-5);
+  padding: var(--space-4) var(--space-2) var(--space-4) var(--space-8);
   border-bottom: 1px solid var(--line);
+  font-size: var(--text-md);
+  transition: background var(--motion-fast);
+}
+
+.items li:hover {
+  background: var(--surface-2);
 }
 
 .items li::before {
   content: "";
   position: absolute;
-  left: 2px;
-  top: calc(var(--space-3) + 0.6em);
-  width: 6px;
-  height: 6px;
-  background: var(--ink);
+  left: var(--space-2);
+  top: calc(var(--space-4) + 0.45em);
+  width: 10px;
+  height: 10px;
+  background: var(--brand-aqua);
 }
 
 .table {
@@ -48,9 +54,10 @@
   padding-bottom: var(--space-2);
   text-align: left;
   font-family: var(--font-display), sans-serif;
-  font-weight: 700;
-  font-size: var(--text-lg);
-  line-height: 1.15;
+  font-weight: 400;
+  font-size: var(--text-xl);
+  line-height: 1.1;
+  text-transform: uppercase;
 }
 
 .vs {
@@ -80,7 +87,15 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--ink-3);
-  border-bottom: 2px solid var(--ink);
+  border-bottom: 3px solid var(--ink);
+}
+
+.table tbody tr {
+  transition: background var(--motion-fast);
+}
+
+.table tbody tr:hover {
+  background: var(--surface-2);
 }
 
 .table tbody th {
@@ -95,7 +110,7 @@
 }
 
 .verdict {
-  border-left: 3px solid transparent;
+  border-left: 6px solid transparent;
 }
 
 tr[data-tone="ahead"] .verdict {
