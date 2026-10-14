@@ -26,8 +26,8 @@
 
 .wordmark {
   /* Stacked lockup. --lockup is the reference size: logo at 75% of it, "Race to the Title" at 1.49x
-     (~15.3x --lockup wide), so it shrinks with the screen to stay on one line. The logo keeps a usable minimum. */
-  --lockup: min(70px, calc((100vw - 2 * var(--gutter)) / 15.3));
+     (~15.6x --lockup wide, incl. slant and shadow), so it shrinks with the screen to stay on one line. The logo keeps a usable minimum. */
+  --lockup: min(70px, calc((100vw - 2 * var(--gutter)) / 15.6));
   --logo-h: clamp(28px, calc(var(--lockup) * 0.75), 52.5px);
   --wordmark-size: calc(var(--lockup) * 1.49);
   display: inline-flex;
@@ -43,11 +43,35 @@
 }
 
 .title {
+  position: relative;
   font-family: var(--font-wordmark), var(--font-display), sans-serif;
   font-size: var(--wordmark-size);
-  /* Box = glyph ink exactly (font metrics pinned in fonts.ts). */
-  line-height: 0.72;
+  line-height: 1;
+  text-transform: uppercase;
   white-space: nowrap;
+  color: var(--ink);
+  transform: skewX(-12deg);
+  /* 3D effect: white face with a dark outline... */
+  -webkit-text-stroke: 0.035em var(--bg);
+  paint-order: stroke fill;
+}
+
+/* ...over an extruded block, outlined in white, offset down and right. */
+.title::before {
+  content: attr(data-text);
+  content: attr(data-text) / ""; /* decorative copy: hidden from screen readers where supported */
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  color: var(--bg);
+  -webkit-text-stroke: 0.045em var(--ink);
+  paint-order: stroke fill;
+  text-shadow:
+    0.01em 0.01em 0 var(--bg),
+    0.02em 0.02em 0 var(--bg),
+    0.03em 0.03em 0 var(--bg),
+    0.04em 0.04em 0 var(--bg);
+  transform: translate(0.05em, 0.06em);
 }
 
 /* Primary logo as a mask so it takes any colour. */
