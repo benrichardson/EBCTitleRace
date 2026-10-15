@@ -115,3 +115,17 @@
   max-width: var(--measure);
 }
 
+
+/* Phones: let the heading wrap ("THE TITLE" / "RACE") and size it so the first line fills the width
+   ("THE TITLE" is ~6x its font size wide incl. slant and shadow). */
+@media (max-width: 639px) {
+  .wordmark {
+    --wordmark-size: calc((100vw - 2 * var(--gutter)) / 6.1);
+  }
+
+  .title {
+    white-space: normal;
+    text-align: center;
+    line-height: 1.02;
+  }
+}
