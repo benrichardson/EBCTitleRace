@@ -25,11 +25,11 @@
 }
 
 .wordmark {
-  /* Stacked lockup. --lockup is the reference size: logo at 75% of it, "Race to the Title" at 1.27x
-     (~15.6x --lockup wide, incl. slant and shadow), so it shrinks with the screen to stay on one line. The logo keeps a usable minimum. */
+  /* Stacked lockup: logo sized from --lockup (shrinks on narrow screens, with a usable minimum). */
   --lockup: min(70px, calc((100vw - 2 * var(--gutter)) / 15.6));
   --logo-h: clamp(28px, calc(var(--lockup) * 0.75), 52.5px);
-  --wordmark-size: calc(var(--lockup) * 1.27); /* 85% of the original 1.49 */
+  /* "The Title Race" is ~9.2x its font size wide incl. slant and shadow: fill the phone width, cap on desktop. */
+  --wordmark-size: min(89px, calc((100vw - 2 * var(--gutter)) / 9.2));
   display: inline-flex;
   flex-direction: column;
   align-items: center;
