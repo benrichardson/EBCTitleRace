@@ -19,8 +19,8 @@ export function AppShell({
         <div className={styles.headerInner}>
           <Link href="/" className={styles.wordmark}>
             <span className={styles.logo} role="img" aria-label="EBC" />
-            <span className={styles.title} data-text="Race to the Title">
-              Race to the Title
+            <span className={styles.title} data-text="The Title Race">
+              The Title Race
             </span>
           </Link>
         </div>
