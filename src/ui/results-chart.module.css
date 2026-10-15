@@ -1,0 +1,127 @@
+.chart {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.plot {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 180px;
+  border-bottom: 3px solid var(--ink);
+}
+
+.bar {
+  display: block;
+  min-height: 2px;
+  background: var(--brand-aqua);
+  transform-origin: bottom;
+  animation: rise 600ms var(--ease-out) both;
+  transition: background var(--motion-fast);
+}
+
+.col:nth-child(2) .bar { animation-delay: 40ms; }
+.col:nth-child(3) .bar { animation-delay: 80ms; }
+.col:nth-child(4) .bar { animation-delay: 120ms; }
+.col:nth-child(5) .bar { animation-delay: 160ms; }
+.col:nth-child(6) .bar { animation-delay: 200ms; }
+.col:nth-child(7) .bar { animation-delay: 240ms; }
+.col:nth-child(8) .bar { animation-delay: 280ms; }
+
+.col:hover .bar {
+  background: var(--brand-yellow);
+}
+
+.value {
+  margin-bottom: var(--space-1);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+  transition: transform var(--motion-fast) var(--ease-out);
+}
+
+.col:hover .value {
+  transform: translateY(-3px);
+  color: var(--brand-yellow);
+}
+
+.month {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--ink-3);
+}
+
+/* Discarded: hollow column, struck value */
+.col[data-status="discarded"] .bar {
+  background: repeating-linear-gradient(135deg, var(--line-strong) 0 2px, transparent 2px 7px);
+  outline: 1px solid var(--line-strong);
+  outline-offset: -1px;
+}
+
+.col[data-status="discarded"] .value {
+  color: var(--discarded-fg);
+  font-weight: 400;
+}
+
+.col[data-status="absent"] .value {
+  color: var(--ink-3);
+}
+
+/* Pending: dashed yellow outline, still to come */
+.col[data-status="pending"] .bar {
+  background: var(--pending-bg);
+  outline: 2px dashed var(--pending-line);
+  outline-offset: -2px;
+}
+
+.col[data-status="pending"] .value,
+.col[data-status="pending"] .month {
+  color: var(--pending-fg);
+}
+
+.col[data-status="pending"] .value {
+  font-family: var(--font-display), sans-serif;
+  font-size: var(--text-xl);
+  font-weight: 400;
+}
+
+@keyframes rise {
+  from {
+    transform: scaleY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bar {
+    animation: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .chart {
+    gap: var(--space-4);
+  }
+
+  .plot {
+    height: 240px;
+  }
+
+  .value {
+    font-size: var(--text-sm);
+  }
+}

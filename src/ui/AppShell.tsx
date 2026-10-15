@@ -3,28 +3,41 @@ import type { ReactNode } from "react";
 import styles from "./shell.module.css";
 
 export function AppShell({
-  seriesName,
   snapshotLabel,
+  water,
   children,
 }: {
-  seriesName: string;
   snapshotLabel: string;
+  /** Faded wave-pool water behind the header and top of the page. */
+  water?: boolean;
   children: ReactNode;
 }) {
   return (
     <>
-      <header className={styles.header}>
+      {water && <div className={styles.water} aria-hidden="true" />}
+      <header className={styles.header} data-water={water || undefined}>
         <div className={styles.headerInner}>
           <Link href="/" className={styles.wordmark}>
-            EBC Title Race
+            <span className={styles.logo} role="img" aria-label="EBC" />
+            {/* Each line is slanted around its own centre so both stay centred when it wraps on phones. */}
+            <span className={styles.title}>
+              <span className={styles.line} data-text="The Title">
+                The Title
+              </span>{" "}
+              <span className={styles.line} data-text="Race">
+                Race
+              </span>
+            </span>
           </Link>
-          <span className={styles.series}>{seriesName}</span>
         </div>
       </header>
       <main className={styles.main}>{children}</main>
       <footer className={styles.footer}>
-        <p>Snapshot {snapshotLabel} Sydney</p>
-        <p>Provisional standings recalculated from LiveHeats results using club counting rules. Not an official result.</p>
+        <img src="/brand/ebc-circle.png" alt="Elouera Boardriders Club, since 1980" className={styles.badge} width={96} height={96} />
+        <div>
+          <p>Snapshot {snapshotLabel} Sydney</p>
+          <p>Provisional standings recalculated from LiveHeats results using club counting rules. Not an official result.</p>
+        </div>
       </footer>
     </>
   );

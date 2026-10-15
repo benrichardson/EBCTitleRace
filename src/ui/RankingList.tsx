@@ -1,9 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useId, useState } from "react";
+import { useState } from "react";
 import type { RankingRowVM } from "@/data/views";
 import { EventStrip } from "./EventStrip";
+import { RaceBar } from "./RaceBar";
 import { fmt, rankLabel } from "./format";
 import styles from "./rankings.module.css";
 
@@ -11,28 +12,17 @@ export function RankingList({
   rows,
   divisionName,
   eventShortLabels,
+  query,
+  onClearQuery,
 }: {
   rows: RankingRowVM[];
   divisionName: string;
   eventShortLabels: string[];
+  /** Search text from the controls above; filters rows by name. */
+  query: string;
+  onClearQuery: () => void;
 }) {
-  const [query, setQuery] = useState("");
   const [expanded, setExpanded] = useState<ReadonlySet<string>>(new Set());
-  const searchId = useId();
-
-  // Restore a search from the URL (e.g. after Back from a surfer page).
-  useEffect(() => {
-    const q = new URLSearchParams(window.location.search).get("q");
-    if (q) setQuery(q);
-  }, []);
-
-  function updateQuery(q: string) {
-    setQuery(q);
-    const url = new URL(window.location.href);
-    if (q) url.searchParams.set("q", q);
-    else url.searchParams.delete("q");
-    window.history.replaceState(window.history.state, "", url);
-  }
 
   function toggle(id: string) {
     setExpanded((prev) => {
@@ -43,26 +33,13 @@ export function RankingList({
     });
   }
 
+  // Bars are scaled to the division's top total so they read as the race to the leader.
+  const scaleMax = Math.max(1, ...rows.map((r) => r.total));
   const needle = query.trim().toLocaleLowerCase();
   const visible = needle ? rows.filter((r) => r.name.toLocaleLowerCase().includes(needle)) : rows;
 
   return (
     <section aria-label={`${divisionName} rankings`}>
-      <div className={styles.searchRow}>
-        <label htmlFor={searchId} className="sr-only">
-          Find a surfer in {divisionName}
-        </label>
-        <input
-          id={searchId}
-          type="search"
-          className={styles.search}
-          placeholder={`Find a surfer in ${divisionName}`}
-          value={query}
-          onChange={(e) => updateQuery(e.target.value)}
-          autoComplete="off"
-        />
-      </div>
-
       <p className="sr-only" aria-live="polite">
         {needle ? `${visible.length} of ${rows.length} surfers shown` : ""}
       </p>
@@ -72,7 +49,7 @@ export function RankingList({
           <p>
             No one in {divisionName} matches “{query}”.
           </p>
-          <button type="button" className={styles.textButton} onClick={() => updateQuery("")}>
+          <button type="button" className={styles.textButton} onClick={onClearQuery}>
             Show everyone
           </button>
         </div>
@@ -116,6 +93,10 @@ export function RankingList({
                         : `replace ${fmt(row.replacement)}`}
                     </span>
                   </span>
+                  {/* Sits above the row link so segment tooltips work; still opens the surfer page. */}
+                  <Link href={row.href} className={styles.bar} tabIndex={-1} aria-hidden="true">
+                    <RaceBar events={row.events} scaleMax={scaleMax} />
+                  </Link>
                   <span className={styles.total}>
                     {fmt(row.total)}
                     <span className="sr-only"> points</span>

@@ -22,5 +22,5 @@ export default async function DivisionRankings({ params }: { params: Promise<Par
   const { divisionId } = await params;
   const page = buildRankingsPage(snapshot, season, divisionId);
   if (!page) notFound();
-  return <RankingsScreen page={page} />;
+  return <RankingsScreen countRules={season.divisions} page={page} />;
 }

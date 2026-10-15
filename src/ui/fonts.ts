@@ -1,15 +1,23 @@
-import { Barlow_Condensed, IBM_Plex_Sans } from "next/font/google";
+import { Anton, Bungee, Inter } from "next/font/google";
 
-export const display = Barlow_Condensed({
+export const display = Anton({
   subsets: ["latin"],
-  weight: ["600", "700"],
+  weight: "400",
   variable: "--font-display",
-  display: "optional",
+  display: "swap",
 });
 
-export const text = IBM_Plex_Sans({
+export const text = Inter({
   subsets: ["latin"],
-  weight: ["400", "600"],
+  weight: ["400", "600", "700"],
   variable: "--font-text",
+  display: "swap",
+});
+
+// Masthead wordmark: Bungee, with the 3D outline/shadow and slant applied in shell.module.css.
+export const wordmark = Bungee({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-wordmark",
   display: "swap",
 });
