@@ -27,7 +27,7 @@
 .wordmark {
   /* Stacked lockup: logo sized from --lockup (shrinks on narrow screens, with a usable minimum). */
   --lockup: min(70px, calc((100vw - 2 * var(--gutter)) / 15.6));
-  --logo-h: clamp(28px, calc(var(--lockup) * 0.75), 52.5px);
+  --logo-h: clamp(35px, calc(var(--lockup) * 0.94), 65.5px);
   /* "The Title Race" is ~9.2x its font size wide incl. slant and shadow: fill the phone width, cap on desktop. */
   --wordmark-size: min(89px, calc((100vw - 2 * var(--gutter)) / 9.2));
   display: inline-flex;
@@ -43,21 +43,29 @@
 }
 
 .title {
-  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 0.32em;
   font-family: var(--font-wordmark), var(--font-display), sans-serif;
   font-size: var(--wordmark-size);
   line-height: 1;
   text-transform: uppercase;
-  white-space: nowrap;
   color: var(--ink);
-  transform: skewX(-12deg);
+}
+
+.line {
+  position: relative;
+  white-space: nowrap;
+  /* Slant around the line's own centre; nudge left by half the shadow offset so it reads as centred. */
+  transform: skewX(-12deg) translateX(-0.025em);
   /* 3D effect: white face with a dark outline... */
   -webkit-text-stroke: 0.035em var(--bg);
   paint-order: stroke fill;
 }
 
 /* ...over an extruded block, outlined in white, offset down and right. */
-.title::before {
+.line::before {
   content: attr(data-text);
   content: attr(data-text) / ""; /* decorative copy: hidden from screen readers where supported */
   position: absolute;
@@ -124,8 +132,8 @@
   }
 
   .title {
-    white-space: normal;
-    text-align: center;
-    line-height: 1.02;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.04em;
   }
 }

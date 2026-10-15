@@ -19,8 +19,14 @@ export function AppShell({
         <div className={styles.headerInner}>
           <Link href="/" className={styles.wordmark}>
             <span className={styles.logo} role="img" aria-label="EBC" />
-            <span className={styles.title} data-text="The Title Race">
-              The Title Race
+            {/* Each line is slanted around its own centre so both stay centred when it wraps on phones. */}
+            <span className={styles.title}>
+              <span className={styles.line} data-text="The Title">
+                The Title
+              </span>{" "}
+              <span className={styles.line} data-text="Race">
+                Race
+              </span>
             </span>
           </Link>
         </div>
